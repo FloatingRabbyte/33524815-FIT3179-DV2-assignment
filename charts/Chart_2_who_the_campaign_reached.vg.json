@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": "Who saw the campaign materials? African-born Australians (n = 454), by group",
-  "data": {"url": "CSV files/survey_csvs/campaign_survey_sample_profile.csv"},
+  "data": {"url": "data/survey_csvs/campaign_survey_sample_profile.csv"},
   "transform": [
     {"filter": "datum.group == 'Seen materials' || datum.group == 'Not seen materials'"},
     {"calculate": "datum.group == 'Seen materials' ? datum.pct_of_group : -datum.pct_of_group",
