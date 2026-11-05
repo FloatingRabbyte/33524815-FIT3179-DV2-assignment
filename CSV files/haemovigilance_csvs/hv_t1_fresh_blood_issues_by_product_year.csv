@@ -1,0 +1,26 @@
+product,year,units_issued,pct_of_issues_calc
+Red blood cells,2019-20,629609,65.3
+Red blood cells,2020-21,659611,65.0
+Red blood cells,2021-22,663530,65.7
+Red blood cells,2022-23,686730,65.4
+Red blood cells,2023-24,703596,65.0
+Platelets,2019-20,138210,14.3
+Platelets,2020-21,145056,14.3
+Platelets,2021-22,140504,13.9
+Platelets,2022-23,147893,14.1
+Platelets,2023-24,155143,14.3
+Fresh frozen plasma,2019-20,85314,8.8
+Fresh frozen plasma,2020-21,85151,8.4
+Fresh frozen plasma,2021-22,82552,8.2
+Fresh frozen plasma,2022-23,87608,8.3
+Fresh frozen plasma,2023-24,86386,8.0
+Cryoprecipitate,2019-20,106818,11.1
+Cryoprecipitate,2020-21,119477,11.8
+Cryoprecipitate,2021-22,119275,11.8
+Cryoprecipitate,2022-23,122760,11.7
+Cryoprecipitate,2023-24,132371,12.2
+Cryo-depleted plasma,2019-20,4263,0.4
+Cryo-depleted plasma,2020-21,6032,0.6
+Cryo-depleted plasma,2021-22,3713,0.4
+Cryo-depleted plasma,2022-23,4798,0.5
+Cryo-depleted plasma,2023-24,4879,0.5

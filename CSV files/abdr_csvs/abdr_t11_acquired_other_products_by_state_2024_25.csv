@@ -1,0 +1,66 @@
+group,diagnosis,product,unit,state,state_name,amount
+"Acquired HMA, HMB, vWD",Acquired haemophilia A,ELOCTATE,IU,QLD,Queensland,51000
+"Acquired HMA, HMB, vWD",Acquired haemophilia A,ELOCTATE,IU,National,Australia,51000
+"Acquired HMA, HMB, vWD",Acquired haemophilia A,FEIBA - NF,IU,WA,Western Australia,50000
+"Acquired HMA, HMB, vWD",Acquired haemophilia A,FEIBA - NF,IU,National,Australia,50000
+"Acquired HMA, HMB, vWD",Acquired haemophilia A,NovoSeven,mg,NSW,New South Wales,218
+"Acquired HMA, HMB, vWD",Acquired haemophilia A,NovoSeven,mg,VIC,Victoria,6862
+"Acquired HMA, HMB, vWD",Acquired haemophilia A,NovoSeven,mg,QLD,Queensland,593
+"Acquired HMA, HMB, vWD",Acquired haemophilia A,NovoSeven,mg,SA,South Australia,2073
+"Acquired HMA, HMB, vWD",Acquired haemophilia A,NovoSeven,mg,WA,Western Australia,288
+"Acquired HMA, HMB, vWD",Acquired haemophilia A,NovoSeven,mg,NT,Northern Territory,18
+"Acquired HMA, HMB, vWD",Acquired haemophilia A,NovoSeven,mg,National,Australia,10052
+"Acquired HMA, HMB, vWD",Acquired VWD,Biostate,IU,VIC,Victoria,18000
+"Acquired HMA, HMB, vWD",Acquired VWD,Biostate,IU,QLD,Queensland,107500
+"Acquired HMA, HMB, vWD",Acquired VWD,Biostate,IU,SA,South Australia,188000
+"Acquired HMA, HMB, vWD",Acquired VWD,Biostate,IU,WA,Western Australia,8000
+"Acquired HMA, HMB, vWD",Acquired VWD,Biostate,IU,National,Australia,321500
+Other factor deficiency,Factor VII deficiency,NovoSeven,mg,NSW,New South Wales,551
+Other factor deficiency,Factor VII deficiency,NovoSeven,mg,QLD,Queensland,2137
+Other factor deficiency,Factor VII deficiency,NovoSeven,mg,SA,South Australia,424
+Other factor deficiency,Factor VII deficiency,NovoSeven,mg,WA,Western Australia,33
+Other factor deficiency,Factor VII deficiency,NovoSeven,mg,ACT,Australian Capital Territory,9
+Other factor deficiency,Factor VII deficiency,NovoSeven,mg,National,Australia,3154
+Other factor deficiency,Factor XI deficiency,Factor XI bpl,IU,NSW,New South Wales,9750
+Other factor deficiency,Factor XI deficiency,Factor XI bpl,IU,VIC,Victoria,24000
+Other factor deficiency,Factor XI deficiency,Factor XI bpl,IU,SA,South Australia,6000
+Other factor deficiency,Factor XI deficiency,Factor XI bpl,IU,WA,Western Australia,60000
+Other factor deficiency,Factor XI deficiency,Factor XI bpl,IU,ACT,Australian Capital Territory,4000
+Other factor deficiency,Factor XI deficiency,Factor XI bpl,IU,National,Australia,103750
+Other factor deficiency,Factor XI deficiency,NovoSeven,mg,QLD,Queensland,10
+Other factor deficiency,Factor XI deficiency,NovoSeven,mg,National,Australia,10
+Other factor deficiency,Factor XIII deficiency,Fibrogammin,IU,NSW,New South Wales,38250
+Other factor deficiency,Factor XIII deficiency,Fibrogammin,IU,VIC,Victoria,2500
+Other factor deficiency,Factor XIII deficiency,Fibrogammin,IU,QLD,Queensland,68750
+Other factor deficiency,Factor XIII deficiency,Fibrogammin,IU,WA,Western Australia,2500
+Other factor deficiency,Factor XIII deficiency,Fibrogammin,IU,ACT,Australian Capital Territory,48750
+Other factor deficiency,Factor XIII deficiency,Fibrogammin,IU,National,Australia,160750
+Other factor deficiency,Factor XIII deficiency,NovoThirteen,IU,NSW,New South Wales,40000
+Other factor deficiency,Factor XIII deficiency,NovoThirteen,IU,VIC,Victoria,192500
+Other factor deficiency,Factor XIII deficiency,NovoThirteen,IU,WA,Western Australia,25000
+Other factor deficiency,Factor XIII deficiency,NovoThirteen,IU,National,Australia,257500
+Other factor deficiency,Acquired factor XIII deficiency,NovoThirteen,IU,VIC,Victoria,107500
+Other factor deficiency,Acquired factor XIII deficiency,NovoThirteen,IU,National,Australia,107500
+Other,Platelet disorder,NovoSeven,mg,VIC,Victoria,28
+Other,Platelet disorder,NovoSeven,mg,WA,Western Australia,24
+Other,Platelet disorder,NovoSeven,mg,National,Australia,52
+Other,Fibrinogen,RiaSTAP,g,NSW,New South Wales,119
+Other,Fibrinogen,RiaSTAP,g,VIC,Victoria,135
+Other,Fibrinogen,RiaSTAP,g,QLD,Queensland,215
+Other,Fibrinogen,RiaSTAP,g,WA,Western Australia,128
+Other,Fibrinogen,RiaSTAP,g,ACT,Australian Capital Territory,8
+Other,Fibrinogen,RiaSTAP,g,National,Australia,605
+Other,Other,Advate,IU,WA,Western Australia,1000
+Other,Other,Advate,IU,National,Australia,1000
+Other,Other,Biostate,IU,NSW,New South Wales,256000
+Other,Other,Biostate,IU,VIC,Victoria,1000
+Other,Other,Biostate,IU,QLD,Queensland,8500
+Other,Other,Biostate,IU,WA,Western Australia,3500
+Other,Other,Biostate,IU,National,Australia,269000
+Other,Other,ELOCTATE,IU,SA,South Australia,8500
+Other,Other,ELOCTATE,IU,National,Australia,8500
+Other,Other,NovoSeven,mg,SA,South Australia,630
+Other,Other,NovoSeven,mg,National,Australia,630
+Other,Other,RiaSTAP,g,QLD,Queensland,19
+Other,Other,RiaSTAP,g,WA,Western Australia,4
+Other,Other,RiaSTAP,g,National,Australia,23

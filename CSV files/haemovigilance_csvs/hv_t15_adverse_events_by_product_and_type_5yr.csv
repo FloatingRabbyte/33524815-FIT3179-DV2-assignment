@@ -1,0 +1,76 @@
+event_type,event_type_full,product,count_2019_20_to_2023_24
+ABO incompatible,ABO incompatible transfusion,Red cells,6
+ABO incompatible,ABO incompatible transfusion,Platelets,0
+ABO incompatible,ABO incompatible transfusion,Fresh frozen plasma,1
+ABO incompatible,ABO incompatible transfusion,Cryoprecipitate,0
+ABO incompatible,ABO incompatible transfusion,Cryo-depleted plasma,0
+AHTR,Acute haemolytic transfusion reaction (other than ABO incompatibility),Red cells,55
+AHTR,Acute haemolytic transfusion reaction (other than ABO incompatibility),Platelets,15
+AHTR,Acute haemolytic transfusion reaction (other than ABO incompatibility),Fresh frozen plasma,2
+AHTR,Acute haemolytic transfusion reaction (other than ABO incompatibility),Cryoprecipitate,1
+AHTR,Acute haemolytic transfusion reaction (other than ABO incompatibility),Cryo-depleted plasma,0
+Allergic,Allergic reaction,Red cells,285
+Allergic,Allergic reaction,Platelets,413
+Allergic,Allergic reaction,Fresh frozen plasma,153
+Allergic,Allergic reaction,Cryoprecipitate,30
+Allergic,Allergic reaction,Cryo-depleted plasma,7
+Anaphylactic,Anaphylactic reaction,Red cells,30
+Anaphylactic,Anaphylactic reaction,Platelets,43
+Anaphylactic,Anaphylactic reaction,Fresh frozen plasma,27
+Anaphylactic,Anaphylactic reaction,Cryoprecipitate,4
+Anaphylactic,Anaphylactic reaction,Cryo-depleted plasma,0
+DHTR,Delayed haemolytic transfusion reaction,Red cells,91
+DHTR,Delayed haemolytic transfusion reaction,Platelets,5
+DHTR,Delayed haemolytic transfusion reaction,Fresh frozen plasma,0
+DHTR,Delayed haemolytic transfusion reaction,Cryoprecipitate,0
+DHTR,Delayed haemolytic transfusion reaction,Cryo-depleted plasma,0
+DSTR,Delayed serologic reaction,Red cells,237
+DSTR,Delayed serologic reaction,Platelets,5
+DSTR,Delayed serologic reaction,Fresh frozen plasma,0
+DSTR,Delayed serologic reaction,Cryoprecipitate,0
+DSTR,Delayed serologic reaction,Cryo-depleted plasma,0
+FNHTR,Febrile non-haemolytic transfusion reaction,Red cells,1077
+FNHTR,Febrile non-haemolytic transfusion reaction,Platelets,150
+FNHTR,Febrile non-haemolytic transfusion reaction,Fresh frozen plasma,12
+FNHTR,Febrile non-haemolytic transfusion reaction,Cryoprecipitate,2
+FNHTR,Febrile non-haemolytic transfusion reaction,Cryo-depleted plasma,1
+Hypotensive,Hypotensive reaction,Red cells,27
+Hypotensive,Hypotensive reaction,Platelets,7
+Hypotensive,Hypotensive reaction,Fresh frozen plasma,0
+Hypotensive,Hypotensive reaction,Cryoprecipitate,1
+Hypotensive,Hypotensive reaction,Cryo-depleted plasma,0
+IBCT,Incorrect blood component transfused,Red cells,144
+IBCT,Incorrect blood component transfused,Platelets,17
+IBCT,Incorrect blood component transfused,Fresh frozen plasma,4
+IBCT,Incorrect blood component transfused,Cryoprecipitate,3
+IBCT,Incorrect blood component transfused,Cryo-depleted plasma,0
+Other,Other,Red cells,70
+Other,Other,Platelets,8
+Other,Other,Fresh frozen plasma,3
+Other,Other,Cryoprecipitate,1
+Other,Other,Cryo-depleted plasma,0
+PTP,Post transfusion purpura,Red cells,1
+PTP,Post transfusion purpura,Platelets,0
+PTP,Post transfusion purpura,Fresh frozen plasma,0
+PTP,Post transfusion purpura,Cryoprecipitate,0
+PTP,Post transfusion purpura,Cryo-depleted plasma,0
+TACO,Transfusion-associated circulatory overload,Red cells,329
+TACO,Transfusion-associated circulatory overload,Platelets,26
+TACO,Transfusion-associated circulatory overload,Fresh frozen plasma,7
+TACO,Transfusion-associated circulatory overload,Cryoprecipitate,3
+TACO,Transfusion-associated circulatory overload,Cryo-depleted plasma,0
+TAD,Transfusion associated dyspnoea,Red cells,51
+TAD,Transfusion associated dyspnoea,Platelets,11
+TAD,Transfusion associated dyspnoea,Fresh frozen plasma,2
+TAD,Transfusion associated dyspnoea,Cryoprecipitate,0
+TAD,Transfusion associated dyspnoea,Cryo-depleted plasma,0
+TRALI,Transfusion-related acute lung injury,Red cells,9
+TRALI,Transfusion-related acute lung injury,Platelets,2
+TRALI,Transfusion-related acute lung injury,Fresh frozen plasma,0
+TRALI,Transfusion-related acute lung injury,Cryoprecipitate,0
+TRALI,Transfusion-related acute lung injury,Cryo-depleted plasma,0
+TTI,Transfusion-transmitted infection,Red cells,6
+TTI,Transfusion-transmitted infection,Platelets,28
+TTI,Transfusion-transmitted infection,Fresh frozen plasma,0
+TTI,Transfusion-transmitted infection,Cryoprecipitate,1
+TTI,Transfusion-transmitted infection,Cryo-depleted plasma,0

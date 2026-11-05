@@ -1,0 +1,141 @@
+measure,event_type,event_type_full,year,count
+All adverse events,ABO incompatible,ABO incompatible transfusion,2019-20,1
+All adverse events,ABO incompatible,ABO incompatible transfusion,2020-21,0
+All adverse events,ABO incompatible,ABO incompatible transfusion,2021-22,2
+All adverse events,ABO incompatible,ABO incompatible transfusion,2022-23,2
+All adverse events,ABO incompatible,ABO incompatible transfusion,2023-24,2
+All adverse events,AHTR,Acute haemolytic transfusion reaction (other than ABO incompatibility),2019-20,24
+All adverse events,AHTR,Acute haemolytic transfusion reaction (other than ABO incompatibility),2020-21,16
+All adverse events,AHTR,Acute haemolytic transfusion reaction (other than ABO incompatibility),2021-22,1
+All adverse events,AHTR,Acute haemolytic transfusion reaction (other than ABO incompatibility),2022-23,25
+All adverse events,AHTR,Acute haemolytic transfusion reaction (other than ABO incompatibility),2023-24,8
+All adverse events,Allergic,Allergic reaction,2019-20,241
+All adverse events,Allergic,Allergic reaction,2020-21,176
+All adverse events,Allergic,Allergic reaction,2021-22,151
+All adverse events,Allergic,Allergic reaction,2022-23,136
+All adverse events,Allergic,Allergic reaction,2023-24,203
+All adverse events,Anaphylactic,Anaphylactic reaction,2019-20,24
+All adverse events,Anaphylactic,Anaphylactic reaction,2020-21,25
+All adverse events,Anaphylactic,Anaphylactic reaction,2021-22,27
+All adverse events,Anaphylactic,Anaphylactic reaction,2022-23,12
+All adverse events,Anaphylactic,Anaphylactic reaction,2023-24,19
+All adverse events,DHTR,Delayed haemolytic transfusion reaction,2019-20,18
+All adverse events,DHTR,Delayed haemolytic transfusion reaction,2020-21,20
+All adverse events,DHTR,Delayed haemolytic transfusion reaction,2021-22,22
+All adverse events,DHTR,Delayed haemolytic transfusion reaction,2022-23,19
+All adverse events,DHTR,Delayed haemolytic transfusion reaction,2023-24,18
+All adverse events,DSTR,Delayed serologic reaction,2019-20,25
+All adverse events,DSTR,Delayed serologic reaction,2020-21,32
+All adverse events,DSTR,Delayed serologic reaction,2021-22,33
+All adverse events,DSTR,Delayed serologic reaction,2022-23,67
+All adverse events,DSTR,Delayed serologic reaction,2023-24,85
+All adverse events,FNHTR,Febrile non-haemolytic transfusion reaction,2019-20,222
+All adverse events,FNHTR,Febrile non-haemolytic transfusion reaction,2020-21,303
+All adverse events,FNHTR,Febrile non-haemolytic transfusion reaction,2021-22,251
+All adverse events,FNHTR,Febrile non-haemolytic transfusion reaction,2022-23,227
+All adverse events,FNHTR,Febrile non-haemolytic transfusion reaction,2023-24,243
+All adverse events,Hypotensive,Hypotensive reaction,2019-20,3
+All adverse events,Hypotensive,Hypotensive reaction,2020-21,7
+All adverse events,Hypotensive,Hypotensive reaction,2021-22,6
+All adverse events,Hypotensive,Hypotensive reaction,2022-23,9
+All adverse events,Hypotensive,Hypotensive reaction,2023-24,12
+All adverse events,IBCT,Incorrect blood component transfused,2019-20,31
+All adverse events,IBCT,Incorrect blood component transfused,2020-21,34
+All adverse events,IBCT,Incorrect blood component transfused,2021-22,40
+All adverse events,IBCT,Incorrect blood component transfused,2022-23,37
+All adverse events,IBCT,Incorrect blood component transfused,2023-24,31
+All adverse events,Other,Other,2019-20,5
+All adverse events,Other,Other,2020-21,5
+All adverse events,Other,Other,2021-22,18
+All adverse events,Other,Other,2022-23,20
+All adverse events,Other,Other,2023-24,34
+All adverse events,PTP,Post transfusion purpura,2019-20,0
+All adverse events,PTP,Post transfusion purpura,2020-21,1
+All adverse events,PTP,Post transfusion purpura,2021-22,0
+All adverse events,PTP,Post transfusion purpura,2022-23,0
+All adverse events,PTP,Post transfusion purpura,2023-24,0
+All adverse events,TACO,Transfusion-associated circulatory overload,2019-20,60
+All adverse events,TACO,Transfusion-associated circulatory overload,2020-21,69
+All adverse events,TACO,Transfusion-associated circulatory overload,2021-22,87
+All adverse events,TACO,Transfusion-associated circulatory overload,2022-23,78
+All adverse events,TACO,Transfusion-associated circulatory overload,2023-24,75
+All adverse events,TAD,Transfusion associated dyspnoea,2019-20,7
+All adverse events,TAD,Transfusion associated dyspnoea,2020-21,11
+All adverse events,TAD,Transfusion associated dyspnoea,2021-22,9
+All adverse events,TAD,Transfusion associated dyspnoea,2022-23,5
+All adverse events,TAD,Transfusion associated dyspnoea,2023-24,33
+All adverse events,TRALI,Transfusion-related acute lung injury,2019-20,2
+All adverse events,TRALI,Transfusion-related acute lung injury,2020-21,1
+All adverse events,TRALI,Transfusion-related acute lung injury,2021-22,3
+All adverse events,TRALI,Transfusion-related acute lung injury,2022-23,6
+All adverse events,TRALI,Transfusion-related acute lung injury,2023-24,0
+All adverse events,TTI,Transfusion-transmitted infection,2019-20,12
+All adverse events,TTI,Transfusion-transmitted infection,2020-21,6
+All adverse events,TTI,Transfusion-transmitted infection,2021-22,9
+All adverse events,TTI,Transfusion-transmitted infection,2022-23,7
+All adverse events,TTI,Transfusion-transmitted infection,2023-24,2
+Serious adverse events (SAE),ABO incompatible,ABO incompatible transfusion,2019-20,0
+Serious adverse events (SAE),ABO incompatible,ABO incompatible transfusion,2020-21,0
+Serious adverse events (SAE),ABO incompatible,ABO incompatible transfusion,2021-22,2
+Serious adverse events (SAE),ABO incompatible,ABO incompatible transfusion,2022-23,1
+Serious adverse events (SAE),ABO incompatible,ABO incompatible transfusion,2023-24,1
+Serious adverse events (SAE),AHTR,Acute haemolytic transfusion reaction (other than ABO incompatibility),2019-20,4
+Serious adverse events (SAE),AHTR,Acute haemolytic transfusion reaction (other than ABO incompatibility),2020-21,2
+Serious adverse events (SAE),AHTR,Acute haemolytic transfusion reaction (other than ABO incompatibility),2021-22,0
+Serious adverse events (SAE),AHTR,Acute haemolytic transfusion reaction (other than ABO incompatibility),2022-23,2
+Serious adverse events (SAE),AHTR,Acute haemolytic transfusion reaction (other than ABO incompatibility),2023-24,1
+Serious adverse events (SAE),Allergic,Allergic reaction,2019-20,14
+Serious adverse events (SAE),Allergic,Allergic reaction,2020-21,10
+Serious adverse events (SAE),Allergic,Allergic reaction,2021-22,11
+Serious adverse events (SAE),Allergic,Allergic reaction,2022-23,5
+Serious adverse events (SAE),Allergic,Allergic reaction,2023-24,16
+Serious adverse events (SAE),Anaphylactic,Anaphylactic reaction,2019-20,17
+Serious adverse events (SAE),Anaphylactic,Anaphylactic reaction,2020-21,19
+Serious adverse events (SAE),Anaphylactic,Anaphylactic reaction,2021-22,16
+Serious adverse events (SAE),Anaphylactic,Anaphylactic reaction,2022-23,8
+Serious adverse events (SAE),Anaphylactic,Anaphylactic reaction,2023-24,14
+Serious adverse events (SAE),DHTR,Delayed haemolytic transfusion reaction,2019-20,1
+Serious adverse events (SAE),DHTR,Delayed haemolytic transfusion reaction,2020-21,2
+Serious adverse events (SAE),DHTR,Delayed haemolytic transfusion reaction,2021-22,3
+Serious adverse events (SAE),DHTR,Delayed haemolytic transfusion reaction,2022-23,1
+Serious adverse events (SAE),DHTR,Delayed haemolytic transfusion reaction,2023-24,5
+Serious adverse events (SAE),FNHTR,Febrile non-haemolytic transfusion reaction,2019-20,8
+Serious adverse events (SAE),FNHTR,Febrile non-haemolytic transfusion reaction,2020-21,16
+Serious adverse events (SAE),FNHTR,Febrile non-haemolytic transfusion reaction,2021-22,9
+Serious adverse events (SAE),FNHTR,Febrile non-haemolytic transfusion reaction,2022-23,6
+Serious adverse events (SAE),FNHTR,Febrile non-haemolytic transfusion reaction,2023-24,4
+Serious adverse events (SAE),Hypotensive,Hypotensive reaction,2019-20,0
+Serious adverse events (SAE),Hypotensive,Hypotensive reaction,2020-21,2
+Serious adverse events (SAE),Hypotensive,Hypotensive reaction,2021-22,1
+Serious adverse events (SAE),Hypotensive,Hypotensive reaction,2022-23,2
+Serious adverse events (SAE),Hypotensive,Hypotensive reaction,2023-24,0
+Serious adverse events (SAE),IBCT,Incorrect blood component transfused,2019-20,3
+Serious adverse events (SAE),IBCT,Incorrect blood component transfused,2020-21,0
+Serious adverse events (SAE),IBCT,Incorrect blood component transfused,2021-22,1
+Serious adverse events (SAE),IBCT,Incorrect blood component transfused,2022-23,1
+Serious adverse events (SAE),IBCT,Incorrect blood component transfused,2023-24,0
+Serious adverse events (SAE),Other,Other,2019-20,0
+Serious adverse events (SAE),Other,Other,2020-21,3
+Serious adverse events (SAE),Other,Other,2021-22,3
+Serious adverse events (SAE),Other,Other,2022-23,0
+Serious adverse events (SAE),Other,Other,2023-24,1
+Serious adverse events (SAE),TACO,Transfusion-associated circulatory overload,2019-20,18
+Serious adverse events (SAE),TACO,Transfusion-associated circulatory overload,2020-21,17
+Serious adverse events (SAE),TACO,Transfusion-associated circulatory overload,2021-22,27
+Serious adverse events (SAE),TACO,Transfusion-associated circulatory overload,2022-23,24
+Serious adverse events (SAE),TACO,Transfusion-associated circulatory overload,2023-24,21
+Serious adverse events (SAE),TAD,Transfusion associated dyspnoea,2019-20,1
+Serious adverse events (SAE),TAD,Transfusion associated dyspnoea,2020-21,4
+Serious adverse events (SAE),TAD,Transfusion associated dyspnoea,2021-22,1
+Serious adverse events (SAE),TAD,Transfusion associated dyspnoea,2022-23,1
+Serious adverse events (SAE),TAD,Transfusion associated dyspnoea,2023-24,5
+Serious adverse events (SAE),TRALI,Transfusion-related acute lung injury,2019-20,2
+Serious adverse events (SAE),TRALI,Transfusion-related acute lung injury,2020-21,1
+Serious adverse events (SAE),TRALI,Transfusion-related acute lung injury,2021-22,1
+Serious adverse events (SAE),TRALI,Transfusion-related acute lung injury,2022-23,2
+Serious adverse events (SAE),TRALI,Transfusion-related acute lung injury,2023-24,0
+Serious adverse events (SAE),TTI,Transfusion-transmitted infection,2019-20,3
+Serious adverse events (SAE),TTI,Transfusion-transmitted infection,2020-21,0
+Serious adverse events (SAE),TTI,Transfusion-transmitted infection,2021-22,0
+Serious adverse events (SAE),TTI,Transfusion-transmitted infection,2022-23,0
+Serious adverse events (SAE),TTI,Transfusion-transmitted infection,2023-24,0

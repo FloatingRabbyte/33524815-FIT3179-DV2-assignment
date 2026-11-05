@@ -1,0 +1,9 @@
+state,state_name,adverse_events_2023_24,pct_of_all_events_calc,pct_change_from_2022_23_calc,pct_of_red_cell_issues_printed
+NSW,New South Wales,179,23.4,54.3,31.1
+VIC,Victoria,117,15.3,11.4,27.1
+QLD,Queensland,298,39.0,9.2,20.2
+SA,South Australia,75,9.8,11.9,8.3
+WA,Western Australia,87,11.4,13.0,8.8
+TAS,Tasmania,6,0.8,-25.0,2.2
+NT,Northern Territory,1,0.1,-66.7,0.7
+ACT,Australian Capital Territory,2,0.3,100.0,1.6

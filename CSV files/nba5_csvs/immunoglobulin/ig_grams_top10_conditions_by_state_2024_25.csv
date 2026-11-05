@@ -1,0 +1,100 @@
+condition,state,state_name,grams_dispensed
+Acquired hypogammaglobulinaemia,NSW,New South Wales,805534
+Acquired hypogammaglobulinaemia,VIC,Victoria,623981
+Acquired hypogammaglobulinaemia,QLD,Queensland,686365
+Acquired hypogammaglobulinaemia,SA,South Australia,204357
+Acquired hypogammaglobulinaemia,WA,Western Australia,172277
+Acquired hypogammaglobulinaemia,TAS,Tasmania,86954
+Acquired hypogammaglobulinaemia,NT,Northern Territory,8677
+Acquired hypogammaglobulinaemia,ACT,Australian Capital Territory,29908
+Acquired hypogammaglobulinaemia,National,Australia,2618052
+CIDP,NSW,New South Wales,789703
+CIDP,VIC,Victoria,384005
+CIDP,QLD,Queensland,481759
+CIDP,SA,South Australia,66200
+CIDP,WA,Western Australia,212928
+CIDP,TAS,Tasmania,51301
+CIDP,NT,Northern Territory,8420
+CIDP,ACT,Australian Capital Territory,55080
+CIDP,National,Australia,2049395
+Inborn errors of immunity,NSW,New South Wales,372527
+Inborn errors of immunity,VIC,Victoria,169449
+Inborn errors of immunity,QLD,Queensland,162904
+Inborn errors of immunity,SA,South Australia,48920
+Inborn errors of immunity,WA,Western Australia,61800
+Inborn errors of immunity,TAS,Tasmania,13869
+Inborn errors of immunity,NT,Northern Territory,4226
+Inborn errors of immunity,ACT,Australian Capital Territory,26463
+Inborn errors of immunity,National,Australia,860157
+Myasthenia gravis,NSW,New South Wales,207443
+Myasthenia gravis,VIC,Victoria,178553
+Myasthenia gravis,QLD,Queensland,182183
+Myasthenia gravis,SA,South Australia,22935
+Myasthenia gravis,WA,Western Australia,102515
+Myasthenia gravis,TAS,Tasmania,20005
+Myasthenia gravis,NT,Northern Territory,3275
+Myasthenia gravis,ACT,Australian Capital Territory,21595
+Myasthenia gravis,National,Australia,738503
+Inflammatory myopathies,NSW,New South Wales,149210
+Inflammatory myopathies,VIC,Victoria,171165
+Inflammatory myopathies,QLD,Queensland,109218
+Inflammatory myopathies,SA,South Australia,42070
+Inflammatory myopathies,WA,Western Australia,74770
+Inflammatory myopathies,TAS,Tasmania,9840
+Inflammatory myopathies,NT,Northern Territory,6690
+Inflammatory myopathies,ACT,Australian Capital Territory,15665
+Inflammatory myopathies,National,Australia,578628
+Secondary hypogammaglobulinaemia,NSW,New South Wales,168145
+Secondary hypogammaglobulinaemia,VIC,Victoria,119666
+Secondary hypogammaglobulinaemia,QLD,Queensland,148019
+Secondary hypogammaglobulinaemia,SA,South Australia,13508
+Secondary hypogammaglobulinaemia,WA,Western Australia,34321
+Secondary hypogammaglobulinaemia,TAS,Tasmania,16132
+Secondary hypogammaglobulinaemia,NT,Northern Territory,136
+Secondary hypogammaglobulinaemia,ACT,Australian Capital Territory,7240
+Secondary hypogammaglobulinaemia,National,Australia,507165
+Multifocal motor neuropathy,NSW,New South Wales,152105
+Multifocal motor neuropathy,VIC,Victoria,86305
+Multifocal motor neuropathy,QLD,Queensland,94070
+Multifocal motor neuropathy,SA,South Australia,39180
+Multifocal motor neuropathy,WA,Western Australia,35800
+Multifocal motor neuropathy,TAS,Tasmania,8475
+Multifocal motor neuropathy,NT,Northern Territory,6230
+Multifocal motor neuropathy,ACT,Australian Capital Territory,23242
+Multifocal motor neuropathy,National,Australia,445407
+Immune thrombocytopenic purpura (ITP) — adult,NSW,New South Wales,113465
+Immune thrombocytopenic purpura (ITP) — adult,VIC,Victoria,75915
+Immune thrombocytopenic purpura (ITP) — adult,QLD,Queensland,72970
+Immune thrombocytopenic purpura (ITP) — adult,SA,South Australia,37360
+Immune thrombocytopenic purpura (ITP) — adult,WA,Western Australia,19440
+Immune thrombocytopenic purpura (ITP) — adult,TAS,Tasmania,4850
+Immune thrombocytopenic purpura (ITP) — adult,NT,Northern Territory,605
+Immune thrombocytopenic purpura (ITP) — adult,ACT,Australian Capital Territory,7275
+Immune thrombocytopenic purpura (ITP) — adult,National,Australia,331880
+Solid organ transplantation,NSW,New South Wales,30930
+Solid organ transplantation,VIC,Victoria,154350
+Solid organ transplantation,QLD,Queensland,22405
+Solid organ transplantation,SA,South Australia,14240
+Solid organ transplantation,WA,Western Australia,12275
+Solid organ transplantation,TAS,Tasmania,16935
+Solid organ transplantation,NT,Northern Territory,3930
+Solid organ transplantation,ACT,Australian Capital Territory,2615
+Solid organ transplantation,National,Australia,257680
+AMAE,NSW,New South Wales,113978
+AMAE,VIC,Victoria,40765
+AMAE,QLD,Queensland,50008
+AMAE,SA,South Australia,4305
+AMAE,WA,Western Australia,22660
+AMAE,TAS,Tasmania,4175
+AMAE,NT,Northern Territory,375
+AMAE,ACT,Australian Capital Territory,9415
+AMAE,National,Australia,245680
+Total of these 10 conditions,NSW,New South Wales,2903038
+Total of these 10 conditions,VIC,Victoria,2004153
+Total of these 10 conditions,QLD,Queensland,2009898
+Total of these 10 conditions,SA,South Australia,493075
+Total of these 10 conditions,WA,Western Australia,748785
+Total of these 10 conditions,TAS,Tasmania,232536
+Total of these 10 conditions,NT,Northern Territory,42564
+Total of these 10 conditions,ACT,Australian Capital Territory,198497
+Total of these 10 conditions,National,Australia,8632546

@@ -1,0 +1,29 @@
+period,measure,variable,group,percent,ci_low,ci_high
+pre_vCJD_removal,eligibility_rate,age_coverage,All ages,49.19,47.26,51.11
+pre_vCJD_removal,eligibility_rate,age_coverage,18-74 years,52.87,50.8,54.9
+pre_vCJD_removal,share_of_eligible_population,country_of_birth,Not stated/unknown,0.26,0.1,0.66
+pre_vCJD_removal,share_of_eligible_population,country_of_birth,Australian born,72.9,70.39,75.27
+pre_vCJD_removal,share_of_eligible_population,country_of_birth,"Overseas, mainly non-English speaking background",20.02,17.9,22.31
+pre_vCJD_removal,share_of_eligible_population,country_of_birth,"Overseas, mainly English-speaking background",6.82,5.63,8.25
+post_vCJD_removal,eligibility_rate,age_coverage,All ages,53.32,51.41,55.22
+post_vCJD_removal,eligibility_rate,age_coverage,18-74 years,57.31,55.27,59.32
+post_vCJD_removal,share_of_eligible_population,country_of_birth,Not stated/unknown,0.24,0.1,0.61
+post_vCJD_removal,share_of_eligible_population,country_of_birth,Australian born,70.83,68.43,73.13
+post_vCJD_removal,share_of_eligible_population,country_of_birth,"Overseas, mainly non-English speaking background",19.03,17.06,21.17
+post_vCJD_removal,share_of_eligible_population,country_of_birth,"Overseas, mainly English-speaking background",9.89,8.58,11.39
+post_vCJD_removal,share_of_eligible_population,sex,Male,50.72,48.89,52.54
+post_vCJD_removal,share_of_eligible_population,sex,Female,48.96,47.14,50.78
+post_vCJD_removal,share_of_eligible_population,sex,Non-binary,0.32,0.15,0.67
+post_vCJD_removal,share_of_eligible_population,sex,Use a different term,0.0,0.0,0.0
+post_vCJD_removal,share_of_eligible_population,donor_status,Current donor,13.6,11.81,15.62
+post_vCJD_removal,share_of_eligible_population,donor_status,Lapsed donor,29.14,26.94,31.44
+post_vCJD_removal,share_of_eligible_population,donor_status,Non-donor,56.58,53.98,59.16
+post_vCJD_removal,share_of_eligible_population,donor_status,Indeterminate,0.67,0.32,1.41
+post_vCJD_removal,share_of_eligible_population,age_group,Refused to answer,0.0,0.0,0.0
+post_vCJD_removal,share_of_eligible_population,age_group,18-24,10.62,9.4,11.99
+post_vCJD_removal,share_of_eligible_population,age_group,25-34,22.59,20.97,24.29
+post_vCJD_removal,share_of_eligible_population,age_group,35-44,19.43,18.09,20.85
+post_vCJD_removal,share_of_eligible_population,age_group,45-54,18.77,17.49,20.12
+post_vCJD_removal,share_of_eligible_population,age_group,55-64,15.41,14.33,16.56
+post_vCJD_removal,share_of_eligible_population,age_group,65-74,12.92,11.82,14.1
+post_vCJD_removal,share_of_eligible_population,age_group,75+,0.26,0.13,0.5

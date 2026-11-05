@@ -1,0 +1,105 @@
+state,state_name,event_type,event_type_full,count
+NSW,New South Wales,ABO incompatible,ABO incompatible transfusion,0
+NSW,New South Wales,AHTR,Acute haemolytic transfusion reaction (other than ABO incompatibility),0
+NSW,New South Wales,Allergic,Allergic reaction,50
+NSW,New South Wales,Anaphylactic,Anaphylactic reaction,4
+NSW,New South Wales,DHTR,Delayed haemolytic transfusion reaction,3
+NSW,New South Wales,DSTR,Delayed serologic reaction,12
+NSW,New South Wales,FNHTR,Febrile non-haemolytic transfusion reaction,35
+NSW,New South Wales,Hypotensive,Hypotensive reaction,10
+NSW,New South Wales,IBCT,Incorrect blood component transfused,15
+NSW,New South Wales,Other,Other,18
+NSW,New South Wales,TACO,Transfusion-associated circulatory overload,11
+NSW,New South Wales,TAD,Transfusion associated dyspnoea,20
+NSW,New South Wales,TTI,Transfusion-transmitted infection,1
+VIC,Victoria,ABO incompatible,ABO incompatible transfusion,1
+VIC,Victoria,AHTR,Acute haemolytic transfusion reaction (other than ABO incompatibility),0
+VIC,Victoria,Allergic,Allergic reaction,14
+VIC,Victoria,Anaphylactic,Anaphylactic reaction,7
+VIC,Victoria,DHTR,Delayed haemolytic transfusion reaction,5
+VIC,Victoria,DSTR,Delayed serologic reaction,49
+VIC,Victoria,FNHTR,Febrile non-haemolytic transfusion reaction,4
+VIC,Victoria,Hypotensive,Hypotensive reaction,2
+VIC,Victoria,IBCT,Incorrect blood component transfused,12
+VIC,Victoria,Other,Other,0
+VIC,Victoria,TACO,Transfusion-associated circulatory overload,23
+VIC,Victoria,TAD,Transfusion associated dyspnoea,0
+VIC,Victoria,TTI,Transfusion-transmitted infection,0
+QLD,Queensland,ABO incompatible,ABO incompatible transfusion,1
+QLD,Queensland,AHTR,Acute haemolytic transfusion reaction (other than ABO incompatibility),4
+QLD,Queensland,Allergic,Allergic reaction,76
+QLD,Queensland,Anaphylactic,Anaphylactic reaction,2
+QLD,Queensland,DHTR,Delayed haemolytic transfusion reaction,6
+QLD,Queensland,DSTR,Delayed serologic reaction,0
+QLD,Queensland,FNHTR,Febrile non-haemolytic transfusion reaction,176
+QLD,Queensland,Hypotensive,Hypotensive reaction,0
+QLD,Queensland,IBCT,Incorrect blood component transfused,1
+QLD,Queensland,Other,Other,0
+QLD,Queensland,TACO,Transfusion-associated circulatory overload,31
+QLD,Queensland,TAD,Transfusion associated dyspnoea,0
+QLD,Queensland,TTI,Transfusion-transmitted infection,1
+SA,South Australia,ABO incompatible,ABO incompatible transfusion,0
+SA,South Australia,AHTR,Acute haemolytic transfusion reaction (other than ABO incompatibility),4
+SA,South Australia,Allergic,Allergic reaction,31
+SA,South Australia,Anaphylactic,Anaphylactic reaction,3
+SA,South Australia,DHTR,Delayed haemolytic transfusion reaction,2
+SA,South Australia,DSTR,Delayed serologic reaction,0
+SA,South Australia,FNHTR,Febrile non-haemolytic transfusion reaction,12
+SA,South Australia,Hypotensive,Hypotensive reaction,0
+SA,South Australia,IBCT,Incorrect blood component transfused,0
+SA,South Australia,Other,Other,16
+SA,South Australia,TACO,Transfusion-associated circulatory overload,4
+SA,South Australia,TAD,Transfusion associated dyspnoea,3
+SA,South Australia,TTI,Transfusion-transmitted infection,0
+WA,Western Australia,ABO incompatible,ABO incompatible transfusion,0
+WA,Western Australia,AHTR,Acute haemolytic transfusion reaction (other than ABO incompatibility),0
+WA,Western Australia,Allergic,Allergic reaction,30
+WA,Western Australia,Anaphylactic,Anaphylactic reaction,2
+WA,Western Australia,DHTR,Delayed haemolytic transfusion reaction,2
+WA,Western Australia,DSTR,Delayed serologic reaction,24
+WA,Western Australia,FNHTR,Febrile non-haemolytic transfusion reaction,12
+WA,Western Australia,Hypotensive,Hypotensive reaction,0
+WA,Western Australia,IBCT,Incorrect blood component transfused,1
+WA,Western Australia,Other,Other,0
+WA,Western Australia,TACO,Transfusion-associated circulatory overload,6
+WA,Western Australia,TAD,Transfusion associated dyspnoea,10
+WA,Western Australia,TTI,Transfusion-transmitted infection,0
+TAS,Tasmania,ABO incompatible,ABO incompatible transfusion,0
+TAS,Tasmania,AHTR,Acute haemolytic transfusion reaction (other than ABO incompatibility),0
+TAS,Tasmania,Allergic,Allergic reaction,2
+TAS,Tasmania,Anaphylactic,Anaphylactic reaction,0
+TAS,Tasmania,DHTR,Delayed haemolytic transfusion reaction,0
+TAS,Tasmania,DSTR,Delayed serologic reaction,0
+TAS,Tasmania,FNHTR,Febrile non-haemolytic transfusion reaction,4
+TAS,Tasmania,Hypotensive,Hypotensive reaction,0
+TAS,Tasmania,IBCT,Incorrect blood component transfused,0
+TAS,Tasmania,Other,Other,0
+TAS,Tasmania,TACO,Transfusion-associated circulatory overload,0
+TAS,Tasmania,TAD,Transfusion associated dyspnoea,0
+TAS,Tasmania,TTI,Transfusion-transmitted infection,0
+NT,Northern Territory,ABO incompatible,ABO incompatible transfusion,0
+NT,Northern Territory,AHTR,Acute haemolytic transfusion reaction (other than ABO incompatibility),0
+NT,Northern Territory,Allergic,Allergic reaction,0
+NT,Northern Territory,Anaphylactic,Anaphylactic reaction,0
+NT,Northern Territory,DHTR,Delayed haemolytic transfusion reaction,0
+NT,Northern Territory,DSTR,Delayed serologic reaction,0
+NT,Northern Territory,FNHTR,Febrile non-haemolytic transfusion reaction,0
+NT,Northern Territory,Hypotensive,Hypotensive reaction,0
+NT,Northern Territory,IBCT,Incorrect blood component transfused,1
+NT,Northern Territory,Other,Other,0
+NT,Northern Territory,TACO,Transfusion-associated circulatory overload,0
+NT,Northern Territory,TAD,Transfusion associated dyspnoea,0
+NT,Northern Territory,TTI,Transfusion-transmitted infection,0
+ACT,Australian Capital Territory,ABO incompatible,ABO incompatible transfusion,0
+ACT,Australian Capital Territory,AHTR,Acute haemolytic transfusion reaction (other than ABO incompatibility),0
+ACT,Australian Capital Territory,Allergic,Allergic reaction,0
+ACT,Australian Capital Territory,Anaphylactic,Anaphylactic reaction,1
+ACT,Australian Capital Territory,DHTR,Delayed haemolytic transfusion reaction,0
+ACT,Australian Capital Territory,DSTR,Delayed serologic reaction,0
+ACT,Australian Capital Territory,FNHTR,Febrile non-haemolytic transfusion reaction,0
+ACT,Australian Capital Territory,Hypotensive,Hypotensive reaction,0
+ACT,Australian Capital Territory,IBCT,Incorrect blood component transfused,1
+ACT,Australian Capital Territory,Other,Other,0
+ACT,Australian Capital Territory,TACO,Transfusion-associated circulatory overload,0
+ACT,Australian Capital Territory,TAD,Transfusion associated dyspnoea,0
+ACT,Australian Capital Territory,TTI,Transfusion-transmitted infection,0

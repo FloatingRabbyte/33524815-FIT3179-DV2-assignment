@@ -1,0 +1,19 @@
+state,state_name,year,patients,new_patients,population,patients_per_1000_printed,patients_per_1000_calc,pct_change_patients_vs_2023_24,pct_change_new_patients_vs_2023_24
+NSW,New South Wales,2023-24,9583,3457,8434754,1.14,1.14,,
+VIC,Victoria,2023-24,6464,2501,6905978,0.94,0.94,,
+QLD,Queensland,2023-24,6041,1684,5528292,1.09,1.09,,
+SA,South Australia,2023-24,1734,680,1866318,0.93,0.93,,
+WA,Western Australia,2023-24,2119,753,2927888,0.72,0.72,,
+TAS,Tasmania,2023-24,662,207,574705,1.15,1.15,,
+NT,Northern Territory,2023-24,150,61,253634,0.59,0.59,,
+ACT,Australian Capital Territory,2023-24,532,157,470232,1.13,1.13,,
+National,Australia,2023-24,26952,9444,26961801,1.0,1.0,,
+NSW,New South Wales,2024-25,10048,3491,8545140,1.18,1.18,4.9,1.0
+VIC,Victoria,2024-25,7035,2699,7011123,1.0,1.0,8.8,7.9
+QLD,Queensland,2024-25,6404,1848,5618765,1.14,1.14,6.0,9.7
+SA,South Australia,2024-25,1824,655,1891670,0.96,0.96,5.2,-3.7
+WA,Western Australia,2024-25,2286,799,3008697,0.76,0.76,7.9,6.1
+TAS,Tasmania,2024-25,698,222,575756,1.21,1.21,5.4,7.2
+NT,Northern Territory,2024-25,166,69,262191,0.63,0.63,10.7,13.1
+ACT,Australian Capital Territory,2024-25,558,162,481677,1.16,1.16,4.9,3.2
+National,Australia,2024-25,28650,9858,27395019,1.05,1.05,6.3,4.4

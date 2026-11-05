@@ -1,0 +1,57 @@
+state,state_name,measure,year,count
+NSW,New South Wales,All adverse events,2019-20,112
+NSW,New South Wales,All adverse events,2020-21,152
+NSW,New South Wales,All adverse events,2021-22,87
+NSW,New South Wales,All adverse events,2022-23,116
+NSW,New South Wales,All adverse events,2023-24,179
+NSW,New South Wales,All adverse events,2019-20 to 2023-24 total,646
+NSW,New South Wales,Serious adverse events (SAE),2019-20 to 2023-24 total,63
+VIC,Victoria,All adverse events,2019-20,95
+VIC,Victoria,All adverse events,2020-21,97
+VIC,Victoria,All adverse events,2021-22,109
+VIC,Victoria,All adverse events,2022-23,105
+VIC,Victoria,All adverse events,2023-24,117
+VIC,Victoria,All adverse events,2019-20 to 2023-24 total,523
+VIC,Victoria,Serious adverse events (SAE),2019-20 to 2023-24 total,113
+QLD,Queensland,All adverse events,2019-20,299
+QLD,Queensland,All adverse events,2020-21,297
+QLD,Queensland,All adverse events,2021-22,292
+QLD,Queensland,All adverse events,2022-23,273
+QLD,Queensland,All adverse events,2023-24,298
+QLD,Queensland,All adverse events,2019-20 to 2023-24 total,1459
+QLD,Queensland,Serious adverse events (SAE),2019-20 to 2023-24 total,88
+SA,South Australia,All adverse events,2019-20,69
+SA,South Australia,All adverse events,2020-21,78
+SA,South Australia,All adverse events,2021-22,72
+SA,South Australia,All adverse events,2022-23,67
+SA,South Australia,All adverse events,2023-24,75
+SA,South Australia,All adverse events,2019-20 to 2023-24 total,361
+SA,South Australia,Serious adverse events (SAE),2019-20 to 2023-24 total,6
+WA,Western Australia,All adverse events,2019-20,83
+WA,Western Australia,All adverse events,2020-21,73
+WA,Western Australia,All adverse events,2021-22,81
+WA,Western Australia,All adverse events,2022-23,77
+WA,Western Australia,All adverse events,2023-24,87
+WA,Western Australia,All adverse events,2019-20 to 2023-24 total,401
+WA,Western Australia,Serious adverse events (SAE),2019-20 to 2023-24 total,58
+TAS,Tasmania,All adverse events,2019-20,6
+TAS,Tasmania,All adverse events,2020-21,2
+TAS,Tasmania,All adverse events,2021-22,3
+TAS,Tasmania,All adverse events,2022-23,8
+TAS,Tasmania,All adverse events,2023-24,6
+TAS,Tasmania,All adverse events,2019-20 to 2023-24 total,25
+TAS,Tasmania,Serious adverse events (SAE),2019-20 to 2023-24 total,7
+NT,Northern Territory,All adverse events,2019-20,5
+NT,Northern Territory,All adverse events,2020-21,6
+NT,Northern Territory,All adverse events,2021-22,11
+NT,Northern Territory,All adverse events,2022-23,3
+NT,Northern Territory,All adverse events,2023-24,1
+NT,Northern Territory,All adverse events,2019-20 to 2023-24 total,26
+NT,Northern Territory,Serious adverse events (SAE),2019-20 to 2023-24 total,4
+ACT,Australian Capital Territory,All adverse events,2019-20,6
+ACT,Australian Capital Territory,All adverse events,2020-21,1
+ACT,Australian Capital Territory,All adverse events,2021-22,4
+ACT,Australian Capital Territory,All adverse events,2022-23,1
+ACT,Australian Capital Territory,All adverse events,2023-24,2
+ACT,Australian Capital Territory,All adverse events,2019-20 to 2023-24 total,14
+ACT,Australian Capital Territory,Serious adverse events (SAE),2019-20 to 2023-24 total,4

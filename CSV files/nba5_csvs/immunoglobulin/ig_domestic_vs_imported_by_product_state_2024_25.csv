@@ -1,0 +1,64 @@
+item,measure,state,state_name,value
+Intragam 10 (domestic),grams,NSW,New South Wales,153
+Intragam 10 (domestic),grams,VIC,Victoria,0
+Intragam 10 (domestic),grams,QLD,Queensland,0
+Intragam 10 (domestic),grams,SA,South Australia,0
+Intragam 10 (domestic),grams,WA,Western Australia,0
+Intragam 10 (domestic),grams,TAS,Tasmania,0
+Intragam 10 (domestic),grams,NT,Northern Territory,0
+Intragam 10 (domestic),grams,ACT,Australian Capital Territory,0
+Intragam 10 (domestic),grams,National,Australia,153
+Hizentra AU (domestic),grams,NSW,New South Wales,18249
+Hizentra AU (domestic),grams,VIC,Victoria,16008
+Hizentra AU (domestic),grams,QLD,Queensland,21754
+Hizentra AU (domestic),grams,SA,South Australia,11151
+Hizentra AU (domestic),grams,WA,Western Australia,3393
+Hizentra AU (domestic),grams,TAS,Tasmania,748
+Hizentra AU (domestic),grams,NT,Northern Territory,1238
+Hizentra AU (domestic),grams,ACT,Australian Capital Territory,2591
+Hizentra AU (domestic),grams,National,Australia,75132
+Privigen AU (domestic),grams,NSW,New South Wales,1416335
+Privigen AU (domestic),grams,VIC,Victoria,1011285
+Privigen AU (domestic),grams,QLD,Queensland,927490
+Privigen AU (domestic),grams,SA,South Australia,267160
+Privigen AU (domestic),grams,WA,Western Australia,312965
+Privigen AU (domestic),grams,TAS,Tasmania,106780
+Privigen AU (domestic),grams,NT,Northern Territory,9745
+Privigen AU (domestic),grams,ACT,Australian Capital Territory,74605
+Privigen AU (domestic),grams,National,Australia,4126365
+Total domestic,grams,NSW,New South Wales,1434737
+Total domestic,grams,VIC,Victoria,1027293
+Total domestic,grams,QLD,Queensland,949244
+Total domestic,grams,SA,South Australia,278311
+Total domestic,grams,WA,Western Australia,316358
+Total domestic,grams,TAS,Tasmania,107528
+Total domestic,grams,NT,Northern Territory,10983
+Total domestic,grams,ACT,Australian Capital Territory,77196
+Total domestic,grams,National,Australia,4201650
+Total imported,grams,NSW,New South Wales,1942031
+Total imported,grams,VIC,Victoria,1273070
+Total imported,grams,QLD,Queensland,1289043
+Total imported,grams,SA,South Australia,294306
+Total imported,grams,WA,Western Australia,552283
+Total imported,grams,TAS,Tasmania,144833
+Total imported,grams,NT,Northern Territory,37329
+Total imported,grams,ACT,Australian Capital Territory,150244
+Total imported,grams,National,Australia,5683857
+Imported Ig cost excluding plasma for fractionation,aud_m,NSW,New South Wales,241
+Imported Ig cost excluding plasma for fractionation,aud_m,VIC,Victoria,163
+Imported Ig cost excluding plasma for fractionation,aud_m,QLD,Queensland,159.8
+Imported Ig cost excluding plasma for fractionation,aud_m,SA,South Australia,40.1
+Imported Ig cost excluding plasma for fractionation,aud_m,WA,Western Australia,63.1
+Imported Ig cost excluding plasma for fractionation,aud_m,TAS,Tasmania,18
+Imported Ig cost excluding plasma for fractionation,aud_m,NT,Northern Territory,3.7
+Imported Ig cost excluding plasma for fractionation,aud_m,ACT,Australian Capital Territory,16.7
+Imported Ig cost excluding plasma for fractionation,aud_m,National,Australia,705.4
+Domestic as % of domestic + imported,pct,NSW,New South Wales,42
+Domestic as % of domestic + imported,pct,VIC,Victoria,45
+Domestic as % of domestic + imported,pct,QLD,Queensland,42
+Domestic as % of domestic + imported,pct,SA,South Australia,49
+Domestic as % of domestic + imported,pct,WA,Western Australia,36
+Domestic as % of domestic + imported,pct,TAS,Tasmania,43
+Domestic as % of domestic + imported,pct,NT,Northern Territory,23
+Domestic as % of domestic + imported,pct,ACT,Australian Capital Territory,34
+Domestic as % of domestic + imported,pct,National,Australia,43

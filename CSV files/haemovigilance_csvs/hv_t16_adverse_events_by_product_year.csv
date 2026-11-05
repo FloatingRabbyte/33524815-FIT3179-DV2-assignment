@@ -1,0 +1,41 @@
+product,year,adverse_events,pct_of_events_calc
+Red cells,2019-20,415,61.5
+Red cells,2020-21,482,68.3
+Red cells,2021-22,468,71.0
+Red cells,2022-23,490,75.4
+Red cells,2023-24,563,73.6
+Platelets,2019-20,167,24.7
+Platelets,2020-21,160,22.7
+Platelets,2021-22,144,21.9
+Platelets,2022-23,113,17.4
+Platelets,2023-24,146,19.1
+Fresh frozen plasma,2019-20,69,10.2
+Fresh frozen plasma,2020-21,44,6.2
+Fresh frozen plasma,2021-22,31,4.7
+Fresh frozen plasma,2022-23,28,4.3
+Fresh frozen plasma,2023-24,39,5.1
+Cryoprecipitate,2019-20,12,1.8
+Cryoprecipitate,2020-21,11,1.6
+Cryoprecipitate,2021-22,8,1.2
+Cryoprecipitate,2022-23,6,0.9
+Cryoprecipitate,2023-24,9,1.2
+Cryo-depleted plasma,2019-20,4,0.6
+Cryo-depleted plasma,2020-21,3,0.4
+Cryo-depleted plasma,2021-22,1,0.2
+Cryo-depleted plasma,2022-23,0,0.0
+Cryo-depleted plasma,2023-24,0,0.0
+Multiple products,2019-20,1,0.1
+Multiple products,2020-21,1,0.1
+Multiple products,2021-22,0,0.0
+Multiple products,2022-23,0,0.0
+Multiple products,2023-24,0,0.0
+Other products,2019-20,5,0.7
+Other products,2020-21,5,0.7
+Other products,2021-22,7,1.1
+Other products,2022-23,13,2.0
+Other products,2023-24,7,0.9
+Unknown,2019-20,2,0.3
+Unknown,2020-21,0,0.0
+Unknown,2021-22,0,0.0
+Unknown,2022-23,0,0.0
+Unknown,2023-24,1,0.1

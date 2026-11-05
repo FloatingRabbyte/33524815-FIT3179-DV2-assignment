@@ -1,0 +1,72 @@
+event_group,event_type,donation_type,events_n,rate_per_10000_donations,change_in_rate_vs_2022_23_(units)
+Vasovagal,VVR,Whole blood,13455,174.06,-7.84
+Vasovagal,VVR,Plasmapheresis,8769,100.4,-12.32
+Vasovagal,VVR,Plateletpheresis,287,106.3,-15.23
+Vasovagal,VVR,Total,22511,134.52,-10.37
+Vasovagal,VVR with LOC,Whole blood,1226,15.86,-0.76
+Vasovagal,VVR with LOC,Plasmapheresis,608,6.96,-0.64
+Vasovagal,VVR with LOC,Plateletpheresis,24,8.89,0.24
+Vasovagal,VVR with LOC,Total,1858,11.1,-0.69
+Phlebotomy related,Arterial puncture,Whole blood,37,0.48,0
+Phlebotomy related,Arterial puncture,Plasmapheresis,6,0.07,-0.1
+Phlebotomy related,Arterial puncture,Plateletpheresis,0,0,0
+Phlebotomy related,Arterial puncture,Total,43,0.26,-0.05
+Phlebotomy related,Cellulitis,Whole blood,1,0.01,0
+Phlebotomy related,Cellulitis,Plasmapheresis,6,0.07,-0.05
+Phlebotomy related,Cellulitis,Plateletpheresis,0,0,0
+Phlebotomy related,Cellulitis,Total,7,0.04,-0.03
+Phlebotomy related,Delayed bleeding,Whole blood,88,1.14,0
+Phlebotomy related,Delayed bleeding,Plasmapheresis,102,1.17,-0.36
+Phlebotomy related,Delayed bleeding,Plateletpheresis,2,0.74,0.35
+Phlebotomy related,Delayed bleeding,Total,192,1.15,-0.18
+Phlebotomy related,Haematoma,Whole blood,5602,72.47,-3.9
+Phlebotomy related,Haematoma,Plasmapheresis,10650,121.94,-10.17
+Phlebotomy related,Haematoma,Plateletpheresis,509,188.52,-27.79
+Phlebotomy related,Haematoma,Total,16761,100.16,-7.45
+Phlebotomy related,Nerve injury/irritation,Whole blood,935,12.1,0.23
+Phlebotomy related,Nerve injury/irritation,Plasmapheresis,1494,17.11,-2.2
+Phlebotomy related,Nerve injury/irritation,Plateletpheresis,34,12.59,3.55
+Phlebotomy related,Nerve injury/irritation,Total,2463,14.72,-0.99
+Phlebotomy related,Other phlebotomy injury,Whole blood,3,0.04,-0.54
+Phlebotomy related,Other phlebotomy injury,Plasmapheresis,8,0.09,-0.68
+Phlebotomy related,Other phlebotomy injury,Plateletpheresis,0,0,0
+Phlebotomy related,Other phlebotomy injury,Total,11,0.07,-0.61
+Phlebotomy related,Painful arm,Whole blood,1417,18.33,-2.25
+Phlebotomy related,Painful arm,Plasmapheresis,4034,46.19,-9.64
+Phlebotomy related,Painful arm,Plateletpheresis,74,27.41,-19.39
+Phlebotomy related,Painful arm,Total,5525,33.02,-6.35
+Phlebotomy related,Thrombophlebitis,Whole blood,37,0.48,0.04
+Phlebotomy related,Thrombophlebitis,Plasmapheresis,65,0.74,0.29
+Phlebotomy related,Thrombophlebitis,Plateletpheresis,2,0.74,-0.05
+Phlebotomy related,Thrombophlebitis,Total,104,0.62,0.17
+Other event type,Anaphylaxis,Whole blood,0,0,0
+Other event type,Anaphylaxis,Plasmapheresis,1,0.01,-0.01
+Other event type,Anaphylaxis,Plateletpheresis,0,0,0
+Other event type,Anaphylaxis,Total,1,0.01,0.0
+Other event type,Chest pain,Whole blood,35,0.45,-0.01
+Other event type,Chest pain,Plasmapheresis,66,0.76,0.1
+Other event type,Chest pain,Plateletpheresis,2,0.74,0.35
+Other event type,Chest pain,Total,103,0.62,0.05
+Other event type,Local allergic reaction,Whole blood,84,1.09,0.04
+Other event type,Local allergic reaction,Plasmapheresis,138,1.58,-0.41
+Other event type,Local allergic reaction,Plateletpheresis,1,0.37,-0.81
+Other event type,Local allergic reaction,Total,223,1.33,-0.21
+Other event type,Other event/injury,Whole blood,198,2.56,1.25
+Other event type,Other event/injury,Plasmapheresis,309,3.54,1.52
+Other event type,Other event/injury,Plateletpheresis,5,1.85,1.85
+Other event type,Other event/injury,Total,512,3.06,1.4
+Apheresis-specific,Haemolysis,Plasmapheresis,37,0.42,0.12
+Apheresis-specific,Haemolysis,Plateletpheresis,1,0.37,0.37
+Apheresis-specific,Haemolysis,Total,38,0.42,0.13
+Apheresis-specific,Infiltration,Plasmapheresis,7514,86.03,5.42
+Apheresis-specific,Infiltration,Plateletpheresis,319,118.15,17.86
+Apheresis-specific,Infiltration,Total,7833,87,5.82
+Apheresis-specific,Mild citrate reaction,Plasmapheresis,7992,91.5,-18.77
+Apheresis-specific,Mild citrate reaction,Plateletpheresis,807,298.89,-20.46
+Apheresis-specific,Mild citrate reaction,Total,8799,97.72,-18.61
+Apheresis-specific,Moderate/severe citrate reaction,Plasmapheresis,398,4.56,0.35
+Apheresis-specific,Moderate/severe citrate reaction,Plateletpheresis,47,17.41,-8.16
+Apheresis-specific,Moderate/severe citrate reaction,Total,445,4.94,0.12
+Apheresis-specific,Omitted anticoagulant,Plasmapheresis,5,0.06,-0.08
+Apheresis-specific,Omitted anticoagulant,Plateletpheresis,3,1.11,0.72
+Apheresis-specific,Omitted anticoagulant,Total,8,0.09,-0.06

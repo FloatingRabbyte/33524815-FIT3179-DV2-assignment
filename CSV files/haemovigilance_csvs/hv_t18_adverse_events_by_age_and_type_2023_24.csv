@@ -1,0 +1,118 @@
+recipient_age_group,event_type,event_type_full,count
+0-4,ABO incompatible,ABO incompatible transfusion,0
+0-4,AHTR,Acute haemolytic transfusion reaction (other than ABO incompatibility),0
+0-4,Allergic,Allergic reaction,12
+0-4,Anaphylactic,Anaphylactic reaction,0
+0-4,DHTR,Delayed haemolytic transfusion reaction,0
+0-4,DSTR,Delayed serologic reaction,0
+0-4,FNHTR,Febrile non-haemolytic transfusion reaction,3
+0-4,Hypotensive,Hypotensive reaction,0
+0-4,IBCT,Incorrect blood component transfused,1
+0-4,Other,Other,2
+0-4,TACO,Transfusion-associated circulatory overload,4
+0-4,TAD,Transfusion associated dyspnoea,0
+0-4,TTI,Transfusion-transmitted infection,0
+5-14,ABO incompatible,ABO incompatible transfusion,0
+5-14,AHTR,Acute haemolytic transfusion reaction (other than ABO incompatibility),1
+5-14,Allergic,Allergic reaction,15
+5-14,Anaphylactic,Anaphylactic reaction,2
+5-14,DHTR,Delayed haemolytic transfusion reaction,0
+5-14,DSTR,Delayed serologic reaction,4
+5-14,FNHTR,Febrile non-haemolytic transfusion reaction,5
+5-14,Hypotensive,Hypotensive reaction,0
+5-14,IBCT,Incorrect blood component transfused,0
+5-14,Other,Other,0
+5-14,TACO,Transfusion-associated circulatory overload,2
+5-14,TAD,Transfusion associated dyspnoea,0
+5-14,TTI,Transfusion-transmitted infection,0
+15-24,ABO incompatible,ABO incompatible transfusion,0
+15-24,AHTR,Acute haemolytic transfusion reaction (other than ABO incompatibility),1
+15-24,Allergic,Allergic reaction,22
+15-24,Anaphylactic,Anaphylactic reaction,3
+15-24,DHTR,Delayed haemolytic transfusion reaction,0
+15-24,DSTR,Delayed serologic reaction,2
+15-24,FNHTR,Febrile non-haemolytic transfusion reaction,8
+15-24,Hypotensive,Hypotensive reaction,0
+15-24,IBCT,Incorrect blood component transfused,1
+15-24,Other,Other,2
+15-24,TACO,Transfusion-associated circulatory overload,0
+15-24,TAD,Transfusion associated dyspnoea,1
+15-24,TTI,Transfusion-transmitted infection,0
+25-34,ABO incompatible,ABO incompatible transfusion,0
+25-34,AHTR,Acute haemolytic transfusion reaction (other than ABO incompatibility),1
+25-34,Allergic,Allergic reaction,12
+25-34,Anaphylactic,Anaphylactic reaction,3
+25-34,DHTR,Delayed haemolytic transfusion reaction,0
+25-34,DSTR,Delayed serologic reaction,2
+25-34,FNHTR,Febrile non-haemolytic transfusion reaction,10
+25-34,Hypotensive,Hypotensive reaction,0
+25-34,IBCT,Incorrect blood component transfused,1
+25-34,Other,Other,0
+25-34,TACO,Transfusion-associated circulatory overload,3
+25-34,TAD,Transfusion associated dyspnoea,1
+25-34,TTI,Transfusion-transmitted infection,0
+35-44,ABO incompatible,ABO incompatible transfusion,0
+35-44,AHTR,Acute haemolytic transfusion reaction (other than ABO incompatibility),1
+35-44,Allergic,Allergic reaction,29
+35-44,Anaphylactic,Anaphylactic reaction,0
+35-44,DHTR,Delayed haemolytic transfusion reaction,3
+35-44,DSTR,Delayed serologic reaction,8
+35-44,FNHTR,Febrile non-haemolytic transfusion reaction,15
+35-44,Hypotensive,Hypotensive reaction,0
+35-44,IBCT,Incorrect blood component transfused,4
+35-44,Other,Other,3
+35-44,TACO,Transfusion-associated circulatory overload,3
+35-44,TAD,Transfusion associated dyspnoea,4
+35-44,TTI,Transfusion-transmitted infection,0
+45-54,ABO incompatible,ABO incompatible transfusion,0
+45-54,AHTR,Acute haemolytic transfusion reaction (other than ABO incompatibility),1
+45-54,Allergic,Allergic reaction,20
+45-54,Anaphylactic,Anaphylactic reaction,4
+45-54,DHTR,Delayed haemolytic transfusion reaction,4
+45-54,DSTR,Delayed serologic reaction,7
+45-54,FNHTR,Febrile non-haemolytic transfusion reaction,34
+45-54,Hypotensive,Hypotensive reaction,0
+45-54,IBCT,Incorrect blood component transfused,2
+45-54,Other,Other,4
+45-54,TACO,Transfusion-associated circulatory overload,4
+45-54,TAD,Transfusion associated dyspnoea,3
+45-54,TTI,Transfusion-transmitted infection,0
+55-64,ABO incompatible,ABO incompatible transfusion,1
+55-64,AHTR,Acute haemolytic transfusion reaction (other than ABO incompatibility),0
+55-64,Allergic,Allergic reaction,20
+55-64,Anaphylactic,Anaphylactic reaction,3
+55-64,DHTR,Delayed haemolytic transfusion reaction,4
+55-64,DSTR,Delayed serologic reaction,10
+55-64,FNHTR,Febrile non-haemolytic transfusion reaction,40
+55-64,Hypotensive,Hypotensive reaction,3
+55-64,IBCT,Incorrect blood component transfused,8
+55-64,Other,Other,10
+55-64,TACO,Transfusion-associated circulatory overload,11
+55-64,TAD,Transfusion associated dyspnoea,2
+55-64,TTI,Transfusion-transmitted infection,1
+65-74,ABO incompatible,ABO incompatible transfusion,0
+65-74,AHTR,Acute haemolytic transfusion reaction (other than ABO incompatibility),0
+65-74,Allergic,Allergic reaction,28
+65-74,Anaphylactic,Anaphylactic reaction,2
+65-74,DHTR,Delayed haemolytic transfusion reaction,4
+65-74,DSTR,Delayed serologic reaction,23
+65-74,FNHTR,Febrile non-haemolytic transfusion reaction,54
+65-74,Hypotensive,Hypotensive reaction,2
+65-74,IBCT,Incorrect blood component transfused,6
+65-74,Other,Other,3
+65-74,TACO,Transfusion-associated circulatory overload,12
+65-74,TAD,Transfusion associated dyspnoea,9
+65-74,TTI,Transfusion-transmitted infection,1
+75+,ABO incompatible,ABO incompatible transfusion,1
+75+,AHTR,Acute haemolytic transfusion reaction (other than ABO incompatibility),3
+75+,Allergic,Allergic reaction,45
+75+,Anaphylactic,Anaphylactic reaction,2
+75+,DHTR,Delayed haemolytic transfusion reaction,3
+75+,DSTR,Delayed serologic reaction,29
+75+,FNHTR,Febrile non-haemolytic transfusion reaction,74
+75+,Hypotensive,Hypotensive reaction,7
+75+,IBCT,Incorrect blood component transfused,8
+75+,Other,Other,10
+75+,TACO,Transfusion-associated circulatory overload,36
+75+,TAD,Transfusion associated dyspnoea,13
+75+,TTI,Transfusion-transmitted infection,0

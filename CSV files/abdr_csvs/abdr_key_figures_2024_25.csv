@@ -1,0 +1,5 @@
+diagnosis_group,registry_patients,severe_patients,patients_received_product,pct_of_all_abdr_patients,factor_iu_fviii_or_fix,feiba_iu_included_in_fviii_total,novoseven_mg,pct_of_total_fviii_and_fix_iu
+Haemophilia A (hereditary),2874,785,1244,33.9,61727834,688500,6205,58.9
+Haemophilia B (hereditary),669,121,264,7.9,31630500,,,30.2
+VWD (hereditary),2934,162,401,34.6,10723500,,,10.2
+Acquired and other,2010,158,185,23.7,701000,50000,13898,0.7

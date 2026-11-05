@@ -1,0 +1,20 @@
+state,city,approx_city_lat,approx_city_lon,hospital
+NT,Darwin,-12.46,130.84,Royal Darwin Hospital
+QLD,Brisbane,-27.47,153.03,Royal Brisbane and Women's Hospital
+QLD,Brisbane,-27.47,153.03,Queensland Children's Hospital
+NSW,Newcastle,-32.93,151.78,Calvary Mater Newcastle
+NSW,Newcastle,-32.93,151.78,John Hunter Children's Hospital
+NSW,Sydney,-33.87,151.21,Royal Prince Alfred Hospital
+NSW,Sydney,-33.87,151.21,Sydney Children's Hospital
+NSW,Sydney,-33.87,151.21,The Children's Hospital at Westmead
+NSW,Sydney,-33.87,151.21,Prince of Wales Hospital
+NSW,Sydney,-33.87,151.21,Westmead Hospital
+ACT,Canberra,-35.28,149.13,The Canberra Hospital
+VIC,Melbourne,-37.81,144.96,The Alfred Hospital
+VIC,Melbourne,-37.81,144.96,The Royal Children's Hospital
+SA,Adelaide,-34.93,138.6,Royal Adelaide Hospital
+SA,Adelaide,-34.93,138.6,Women's and Children's Hospital
+WA,Perth,-31.95,115.86,Perth Children's Hospital
+WA,Perth,-31.95,115.86,Fiona Stanley Hospital
+WA,Perth,-31.95,115.86,Hollywood Private Hospital
+TAS,Hobart,-42.88,147.33,Royal Hobart Hospital

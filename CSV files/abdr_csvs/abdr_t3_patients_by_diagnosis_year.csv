@@ -1,0 +1,56 @@
+group,diagnosis,year,registry_patients,received_product,flag
+Hereditary,Haemophilia A (HMA),2020-21,2529,1117,
+Hereditary,Haemophilia A (HMA),2021-22,2621,1110,
+Hereditary,Haemophilia A (HMA),2022-23,2681,1149,
+Hereditary,Haemophilia A (HMA),2023-24,2788,1259,
+Hereditary,Haemophilia A (HMA),2024-25,2874,1244,
+Hereditary,Haemophilia B (HMB),2020-21,601,253,
+Hereditary,Haemophilia B (HMB),2021-22,622,251,
+Hereditary,Haemophilia B (HMB),2022-23,621,262,
+Hereditary,Haemophilia B (HMB),2023-24,647,282,
+Hereditary,Haemophilia B (HMB),2024-25,669,264,
+Hereditary,Von Willebrand disease (VWD),2020-21,2460,312,
+Hereditary,Von Willebrand disease (VWD),2021-22,2577,262,
+Hereditary,Von Willebrand disease (VWD),2022-23,2669,320,
+Hereditary,Von Willebrand disease (VWD),2023-24,2797,348,
+Hereditary,Von Willebrand disease (VWD),2024-25,2934,401,
+Acquired,Acquired haemophilia A,2020-21,90,15,
+Acquired,Acquired haemophilia A,2021-22,114,17,
+Acquired,Acquired haemophilia A,2022-23,126,15,
+Acquired,Acquired haemophilia A,2023-24,136,16,
+Acquired,Acquired haemophilia A,2024-25,164,25,
+Acquired,Acquired haemophilia B,2020-21,,,blank in source
+Acquired,Acquired haemophilia B,2021-22,,,blank in source
+Acquired,Acquired haemophilia B,2022-23,,,blank in source
+Acquired,Acquired haemophilia B,2023-24,,,blank in source
+Acquired,Acquired haemophilia B,2024-25,,,blank in source
+Acquired,Acquired VWD,2020-21,33,7,
+Acquired,Acquired VWD,2021-22,35,,suppressed (<5 in source)
+Acquired,Acquired VWD,2022-23,39,8,
+Acquired,Acquired VWD,2023-24,40,5,
+Acquired,Acquired VWD,2024-25,50,14,
+Other diagnoses,Other,2020-21,233,16,
+Other diagnoses,Other,2021-22,245,9,
+Other diagnoses,Other,2022-23,260,11,
+Other diagnoses,Other,2023-24,290,14,
+Other diagnoses,Other,2024-25,366,24,
+Other diagnoses,Other factor deficiency,2020-21,557,67,
+Other diagnoses,Other factor deficiency,2021-22,596,60,
+Other diagnoses,Other factor deficiency,2022-23,604,68,
+Other diagnoses,Other factor deficiency,2023-24,652,66,
+Other diagnoses,Other factor deficiency,2024-25,689,77,
+Other diagnoses,Platelet disorder,2020-21,380,14,
+Other diagnoses,Platelet disorder,2021-22,408,16,
+Other diagnoses,Platelet disorder,2022-23,422,20,
+Other diagnoses,Platelet disorder,2023-24,451,15,
+Other diagnoses,Platelet disorder,2024-25,475,21,
+Other diagnoses,Vascular,2020-21,8,,blank in source
+Other diagnoses,Vascular,2021-22,9,,suppressed (<5 in source)
+Other diagnoses,Vascular,2022-23,9,,blank in source
+Other diagnoses,Vascular,2023-24,10,,blank in source
+Other diagnoses,Vascular,2024-25,10,,blank in source
+Other diagnoses,Fibrinogen disorder,2020-21,149,23,
+Other diagnoses,Fibrinogen disorder,2021-22,175,23,
+Other diagnoses,Fibrinogen disorder,2022-23,196,21,
+Other diagnoses,Fibrinogen disorder,2023-24,223,29,
+Other diagnoses,Fibrinogen disorder,2024-25,256,24,

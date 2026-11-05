@@ -1,0 +1,49 @@
+measure,rate_basis,donation_type,year,rate_per_10000_donations,pct_change_2023_24_vs_2022_23_printed
+All adverse events,Unadjusted,Whole blood,2020-21,297.56,
+All adverse events,Unadjusted,Whole blood,2021-22,315.31,
+All adverse events,Unadjusted,Whole blood,2022-23,286.83,
+All adverse events,Unadjusted,Whole blood,2023-24,273.59,-4.62
+All adverse events,Standardised,Whole blood,2022-23,286.01,
+All adverse events,Standardised,Whole blood,2023-24,280.29,-2.0
+All adverse events,Unadjusted,Plasmapheresis,2020-21,525.55,
+All adverse events,Unadjusted,Plasmapheresis,2021-22,493.82,
+All adverse events,Unadjusted,Plasmapheresis,2022-23,475.36,
+All adverse events,Unadjusted,Plasmapheresis,2023-24,432.91,-8.93
+All adverse events,Standardised,Plasmapheresis,2022-23,460.77,
+All adverse events,Standardised,Plasmapheresis,2023-24,444.39,-3.55
+All adverse events,Unadjusted,Plateletpheresis,2020-21,870.66,
+All adverse events,Unadjusted,Plateletpheresis,2021-22,704.12,
+All adverse events,Unadjusted,Plateletpheresis,2022-23,760.61,
+All adverse events,Unadjusted,Plateletpheresis,2023-24,707.78,-6.95
+All adverse events,Standardised,Plateletpheresis,2022-23,759.9,
+All adverse events,Standardised,Plateletpheresis,2023-24,724.7,-4.63
+All adverse events,Unadjusted,Total,2020-21,429.57,
+All adverse events,Unadjusted,Total,2021-22,413.92,
+All adverse events,Unadjusted,Total,2022-23,392.5,
+All adverse events,Unadjusted,Total,2023-24,363.75,-7.33
+All adverse events,Standardised,Total,2022-23,377.06,
+All adverse events,Standardised,Total,2023-24,365.78,-2.99
+Events needing outside medical care,Unadjusted,Whole blood,2020-21,7.22,
+Events needing outside medical care,Unadjusted,Whole blood,2021-22,5.87,
+Events needing outside medical care,Unadjusted,Whole blood,2022-23,5.44,
+Events needing outside medical care,Unadjusted,Whole blood,2023-24,7.1,30.57
+Events needing outside medical care,Standardised,Whole blood,2022-23,5.31,
+Events needing outside medical care,Standardised,Whole blood,2023-24,7.01,31.91
+Events needing outside medical care,Unadjusted,Plasmapheresis,2020-21,6.31,
+Events needing outside medical care,Unadjusted,Plasmapheresis,2021-22,4.87,
+Events needing outside medical care,Unadjusted,Plasmapheresis,2022-23,4.79,
+Events needing outside medical care,Unadjusted,Plasmapheresis,2023-24,6.0,25.13
+Events needing outside medical care,Standardised,Plasmapheresis,2022-23,4.45,
+Events needing outside medical care,Standardised,Plasmapheresis,2023-24,5.75,29.17
+Events needing outside medical care,Unadjusted,Plateletpheresis,2020-21,6.75,
+Events needing outside medical care,Unadjusted,Plateletpheresis,2021-22,4.45,
+Events needing outside medical care,Unadjusted,Plateletpheresis,2022-23,3.93,
+Events needing outside medical care,Unadjusted,Plateletpheresis,2023-24,4.07,3.59
+Events needing outside medical care,Standardised,Plateletpheresis,2022-23,3.79,
+Events needing outside medical care,Standardised,Plateletpheresis,2023-24,3.95,4.42
+Events needing outside medical care,Unadjusted,Total,2020-21,6.72,
+Events needing outside medical care,Unadjusted,Total,2021-22,5.33,
+Events needing outside medical care,Unadjusted,Total,2022-23,5.08,
+Events needing outside medical care,Unadjusted,Total,2023-24,6.48,27.56
+Events needing outside medical care,Standardised,Total,2022-23,4.88,
+Events needing outside medical care,Standardised,Total,2023-24,6.36,30.37

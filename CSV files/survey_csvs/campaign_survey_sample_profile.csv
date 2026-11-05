@@ -1,0 +1,43 @@
+variable,category,group,n,pct_of_group
+gender,Male,Total sample,216,47.6
+gender,Male,Seen materials,143,50.9
+gender,Male,Not seen materials,73,42.2
+gender,Female,Total sample,238,52.4
+gender,Female,Seen materials,138,49.1
+gender,Female,Not seen materials,100,57.8
+religion,Christian,Total sample,339,74.7
+religion,Christian,Seen materials,211,75.1
+religion,Christian,Not seen materials,128,74.0
+religion,Islam,Total sample,60,13.2
+religion,Islam,Seen materials,38,13.5
+religion,Islam,Not seen materials,22,12.7
+religion,None/Prefer not to say/Other,Total sample,55,12.1
+religion,None/Prefer not to say/Other,Seen materials,32,11.4
+religion,None/Prefer not to say/Other,Not seen materials,23,13.3
+education,"Primary, Secondary or Other",Total sample,102,22.5
+education,"Primary, Secondary or Other",Seen materials,68,24.2
+education,"Primary, Secondary or Other",Not seen materials,34,19.7
+education,University or TAFE,Total sample,352,77.5
+education,University or TAFE,Seen materials,213,75.8
+education,University or TAFE,Not seen materials,139,80.3
+country of birth: African region,Central,Total sample,34,7.5
+country of birth: African region,Central,Seen materials,22,7.8
+country of birth: African region,Central,Not seen materials,12,6.9
+country of birth: African region,Eastern Africa,Total sample,208,45.8
+country of birth: African region,Eastern Africa,Seen materials,115,40.9
+country of birth: African region,Eastern Africa,Not seen materials,93,53.8
+country of birth: African region,Northern Africa,Total sample,92,20.3
+country of birth: African region,Northern Africa,Seen materials,67,23.8
+country of birth: African region,Northern Africa,Not seen materials,25,14.5
+country of birth: African region,Western Africa,Total sample,89,19.6
+country of birth: African region,Western Africa,Seen materials,53,18.9
+country of birth: African region,Western Africa,Not seen materials,36,20.8
+country of birth: African region,Southern Africa,Total sample,31,6.8
+country of birth: African region,Southern Africa,Seen materials,24,8.5
+country of birth: African region,Southern Africa,Not seen materials,7,4.0
+blood donor (before survey),No,Total sample,339,74.7
+blood donor (before survey),No,Seen materials,199,70.8
+blood donor (before survey),No,Not seen materials,140,80.9
+blood donor (before survey),Yes,Total sample,115,25.3
+blood donor (before survey),Yes,Seen materials,82,29.1
+blood donor (before survey),Yes,Not seen materials,33,19.1

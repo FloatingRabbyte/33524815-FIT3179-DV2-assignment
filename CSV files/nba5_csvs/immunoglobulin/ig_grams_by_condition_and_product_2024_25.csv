@@ -1,0 +1,71 @@
+medical_condition,product,route,origin_if_stated_in_Table_5,grams_dispensed
+Acquired hypogammaglobulinaemia,Flebogamma 5%,IVIg,,13505
+Acquired hypogammaglobulinaemia,Flebogamma 10%,IVIg,,11195
+Acquired hypogammaglobulinaemia,Gamunex 10%,IVIg,,41390
+Acquired hypogammaglobulinaemia,Intragam 10,IVIg,Domestic,30
+Acquired hypogammaglobulinaemia,Kiovig,IVIg,,4625
+Acquired hypogammaglobulinaemia,Octagam 10%,IVIg,,146390
+Acquired hypogammaglobulinaemia,Privigen 10%,IVIg,,208460
+Acquired hypogammaglobulinaemia,Privigen AU,IVIg,Domestic,1802490
+Acquired hypogammaglobulinaemia,Normal Immunoglobulin,NHIg,,0
+Acquired hypogammaglobulinaemia,Cuvitru,SCIg,,48355
+Acquired hypogammaglobulinaemia,Evogam,SCIg,,0
+Acquired hypogammaglobulinaemia,Hizentra 20%,SCIg,,280452
+Acquired hypogammaglobulinaemia,Hizentra AU,SCIg,Domestic,10549
+Acquired hypogammaglobulinaemia,Xembify,SCIg,,50611
+Chronic inflammatory demyelinating polyneuropathy,Flebogamma 5%,IVIg,,36270
+Chronic inflammatory demyelinating polyneuropathy,Flebogamma 10%,IVIg,,97755
+Chronic inflammatory demyelinating polyneuropathy,Gamunex 10%,IVIg,,153960
+Chronic inflammatory demyelinating polyneuropathy,Intragam 10,IVIg,Domestic,0
+Chronic inflammatory demyelinating polyneuropathy,Kiovig,IVIg,,45420
+Chronic inflammatory demyelinating polyneuropathy,Octagam 10%,IVIg,,143950
+Chronic inflammatory demyelinating polyneuropathy,Privigen 10%,IVIg,,1264450
+Chronic inflammatory demyelinating polyneuropathy,Privigen AU,IVIg,Domestic,102640
+Chronic inflammatory demyelinating polyneuropathy,Normal Immunoglobulin,NHIg,,0
+Chronic inflammatory demyelinating polyneuropathy,Cuvitru,SCIg,,28223
+Chronic inflammatory demyelinating polyneuropathy,Evogam,SCIg,,0
+Chronic inflammatory demyelinating polyneuropathy,Hizentra 20%,SCIg,,174327
+Chronic inflammatory demyelinating polyneuropathy,Hizentra AU,SCIg,Domestic,1920
+Chronic inflammatory demyelinating polyneuropathy,Xembify,SCIg,,560
+Inborn errors of immunity,Flebogamma 5%,IVIg,,7410
+Inborn errors of immunity,Flebogamma 10%,IVIg,,7065
+Inborn errors of immunity,Gamunex 10%,IVIg,,12000
+Inborn errors of immunity,Intragam 10,IVIg,Domestic,233
+Inborn errors of immunity,Kiovig,IVIg,,2505
+Inborn errors of immunity,Octagam 10%,IVIg,,13095
+Inborn errors of immunity,Privigen 10%,IVIg,,18110
+Inborn errors of immunity,Privigen AU,IVIg,Domestic,452260
+Inborn errors of immunity,Normal Immunoglobulin,NHIg,,438
+Inborn errors of immunity,Cuvitru,SCIg,,50040
+Inborn errors of immunity,Evogam,SCIg,,0
+Inborn errors of immunity,Hizentra 20%,SCIg,,243154
+Inborn errors of immunity,Hizentra AU,SCIg,Domestic,45650
+Inborn errors of immunity,Xembify,SCIg,,8197
+Secondary hypogammaglobulinaemia,Flebogamma 5%,IVIg,,6120
+Secondary hypogammaglobulinaemia,Flebogamma 10%,IVIg,,7190
+Secondary hypogammaglobulinaemia,Gamunex 10%,IVIg,,24730
+Secondary hypogammaglobulinaemia,Intragam 10,IVIg,Domestic,0
+Secondary hypogammaglobulinaemia,Kiovig,IVIg,,1155
+Secondary hypogammaglobulinaemia,Octagam 10%,IVIg,,33515
+Secondary hypogammaglobulinaemia,Privigen 10%,IVIg,,40155
+Secondary hypogammaglobulinaemia,Privigen AU,IVIg,Domestic,266310
+Secondary hypogammaglobulinaemia,Normal Immunoglobulin,NHIg,,0
+Secondary hypogammaglobulinaemia,Cuvitru,SCIg,,21795
+Secondary hypogammaglobulinaemia,Evogam,SCIg,,0
+Secondary hypogammaglobulinaemia,Hizentra 20%,SCIg,,84359
+Secondary hypogammaglobulinaemia,Hizentra AU,SCIg,Domestic,7344
+Secondary hypogammaglobulinaemia,Xembify,SCIg,,14492
+Specific antibody deficiency,Flebogamma 5%,IVIg,,2145
+Specific antibody deficiency,Flebogamma 10%,IVIg,,2380
+Specific antibody deficiency,Gamunex 10%,IVIg,,3840
+Specific antibody deficiency,Intragam 10,IVIg,Domestic,0
+Specific antibody deficiency,Kiovig,IVIg,,540
+Specific antibody deficiency,Octagam 10%,IVIg,,12960
+Specific antibody deficiency,Privigen 10%,IVIg,,6370
+Specific antibody deficiency,Privigen AU,IVIg,Domestic,80215
+Specific antibody deficiency,Normal Immunoglobulin,NHIg,,0
+Specific antibody deficiency,Cuvitru,SCIg,,6527
+Specific antibody deficiency,Evogam,SCIg,,18
+Specific antibody deficiency,Hizentra 20%,SCIg,,34502
+Specific antibody deficiency,Hizentra AU,SCIg,Domestic,5370
+Specific antibody deficiency,Xembify,SCIg,,2404
