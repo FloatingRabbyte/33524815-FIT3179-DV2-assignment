@@ -19,7 +19,7 @@
   "data": [
     {
       "name": "tree",
-      "url": "../CSV files/exclusion_tree.csv",
+      "url": "CSV files/exclusion_tree.csv",
       "format": {
         "type": "csv",
         "parse": {

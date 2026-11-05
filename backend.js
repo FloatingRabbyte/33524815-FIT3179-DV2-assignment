@@ -1,6 +1,6 @@
 var demographic_vg_1 = "charts/Chart_1_Donors_by_age_band.vg.json";
 var demographic_vg_2 = "charts/Chart_2_who_the_campaign_reached.vg.json"
-var demographic_vg_3 = "charts/blood_donation exclusion_factors.vg.json"
+var demographic_vg_3 = "charts/blood_donation_exclusion_factors.vg.json"
 var demographic_vg_4 = "charts/donor_adverse_events_chart.vg.json"
 
 var demand_vg_1 = "charts/Chart_6_Immunoglobulin patients by state, 2023-24 vs 2024-25.vg.json"

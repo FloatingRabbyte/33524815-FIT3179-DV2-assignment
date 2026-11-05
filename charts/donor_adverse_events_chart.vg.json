@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": "Donor adverse event rates per 10,000 donations, by donation type, 2020-21 to 2023-24",
-  "data": {"url": "../CSV files/haemovigilance_csvs/hv_donor_event_rates_per_10000_by_donation_type.csv"},
+  "data": {"url": "CSV files/haemovigilance_csvs/hv_donor_event_rates_per_10000_by_donation_type.csv"},
   "transform": [{"filter": "datum.rate_basis == 'Unadjusted'"}],
   "width": 300,
   "height": 240,

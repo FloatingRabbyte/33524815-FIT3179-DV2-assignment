@@ -23,7 +23,7 @@
   "data": [
     {
       "name": "raw",
-      "url": "../CSV files/nba5_csvs/immunoglobulin/ig_grams_by_condition_and_product_2024_25.csv",
+      "url": "CSV files/nba5_csvs/immunoglobulin/ig_grams_by_condition_and_product_2024_25.csv",
       "format": {
         "type": "csv",
         "parse": {

@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title" : "Fresh blood issues per 1000 population by state and year",
-  "data": {"url": "../CSV files/nba5_csvs/fresh_blood/fb_issues_per_1000_population_by_state_year.csv"},
+  "data": {"url": "CSV files/nba5_csvs/fresh_blood/fb_issues_per_1000_population_by_state_year.csv"},
   "params": [
     {"name": "year_pick", "value": "2024-25",
      "bind": {"input": "select", "name": "Year: ",
