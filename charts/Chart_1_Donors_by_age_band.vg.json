@@ -1,0 +1,16 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "Donors by age group",
+  "data": {"url": "../CSV files/survey_csvs/donors_by_age_and_sex.csv"},
+  "transform": [{"filter": "datum.dimension == 'age_group'"}],
+  "mark": "bar",
+  "encoding": {
+    "x": {"field": "group", "type": "ordinal", "sort": null, "title": "Age group"},
+    "y": {"field": "donors_n", "type": "quantitative", "title": "Donors"},
+    "tooltip": [
+      {"field": "group", "title": "Age"},
+      {"field": "donors_n", "title": "Donors", "format": ","},
+      {"field": "pct_of_donors_calc", "title": "% of donors"}
+    ]
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title":"Domestic vs imported immunoglobulin supply, Australia, 2024-25",
+  "data": {"url": "../CSV files/nba5_csvs/immunoglobulin/ig_domestic_vs_imported_public_private_by_state_2024_25.csv"},
+  "transform": [
+    {"filter": "datum.measure == 'grams_issued' && datum.sector == 'Total' && datum.state == 'National' && (datum.origin == 'Domestic' || datum.origin == 'Imported')"}
+  ],
+  "width": 400,
+  "height": 400,
+  "layer": [
+    {
+      "mark": {"type": "arc", "innerRadius": 100, "outerRadius": 160},
+      "encoding": {
+        "theta": {"field": "value", "type": "quantitative", "stack": true},
+        "order": {"field": "origin"},
+        "color": {"field": "origin", "type": "nominal", "title": "Ig source",
+                  "scale": {"domain": ["Domestic", "Imported"], "range": ["#b3202a", "#9aa5b1"]}},
+        "tooltip": [{"field": "origin", "title": "Source"},
+                    {"field": "value", "title": "Grams", "format": ","}]
+      }
+    },
+    {
+      "transform": [
+        {"joinaggregate": [{"op": "sum", "field": "value", "as": "total"}]},
+        {"calculate": "format(datum.value / datum.total, '.1%')", "as": "label"}
+      ],
+      "mark": {"type": "text", "radius": 130, "fontSize": 14, "fontWeight": "bold", "color": "white"},
+      "encoding": {
+        "theta": {"field": "value", "type": "quantitative", "stack": true},
+        "order": {"field": "origin"},
+        "text": {"field": "label", "type": "nominal"}
+      }
+    },
+    {
+      "transform": [
+        {"calculate": "datum.origin == 'Domestic' ? datum.value : 0", "as": "dom"},
+        {"aggregate": [{"op": "sum", "field": "dom", "as": "dom"}, {"op": "sum", "field": "value", "as": "total"}]},
+        {"calculate": "format(datum.dom / datum.total, '.1%')", "as": "kpi"}
+      ],
+      "mark": {"type": "text", "fontSize": 30, "fontWeight": "bold"},
+      "encoding": {"text": {"field": "kpi", "type": "nominal"}}
+    },
+    {
+      "transform": [
+        {"aggregate": [{"op": "count", "as": "n"}]},
+        {"calculate": "'of Ig made from Australian plasma'", "as": "caption"}
+      ],
+      "mark": {"type": "text", "fontSize": 11, "dy": 26, "color": "gray"},
+      "encoding": {"text": {"field": "caption", "type": "nominal"}}
+    }
+  ]
+}

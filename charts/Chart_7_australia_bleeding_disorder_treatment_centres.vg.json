@@ -1,0 +1,42 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "Bleeding disorder treatment centres in Australia (city positions approximate)",
+  "width": 500,
+  "height": 400,
+  "projection": {"type": "mercator"},
+  "layer": [
+    {
+      "data": {"url": "../geo/australia_states.geojson", "format": {"property": "features"}},
+      "mark": {"type": "geoshape", "fill": "#e8e8e8", "stroke": "white"}
+    },
+    {
+      "data": {"url": "../CSV files/abdr_csvs/abdr_fig4_treatment_centres.csv"},
+      "transform": [
+        {"aggregate": [{"op": "count", "as": "centres"}],
+         "groupby": ["city", "approx_city_lat", "approx_city_lon"]}
+      ],
+      "mark": {"type": "circle", "color": "#b3202a", "opacity": 0.8, "stroke": "white"},
+      "encoding": {
+        "longitude": {"field": "approx_city_lon", "type": "quantitative"},
+        "latitude": {"field": "approx_city_lat", "type": "quantitative"},
+        "size": {"field": "centres", "type": "quantitative", "title": "Treatment centres",
+                 "scale": {"range": [80, 600]}},
+        "tooltip": [{"field": "city"}, {"field": "centres", "title": "Centres"}]
+      }
+    },
+    {
+      "data": {"url": "../CSV files/abdr_csvs/abdr_fig4_treatment_centres.csv"},
+      "transform": [
+        {"aggregate": [{"op": "count", "as": "centres"}],
+         "groupby": ["city", "approx_city_lat", "approx_city_lon"]}
+      ],
+      "mark": {"type": "text", "dy": -14, "fontSize": 10},
+      "encoding": {
+        "longitude": {"field": "approx_city_lon", "type": "quantitative"},
+        "latitude": {"field": "approx_city_lat", "type": "quantitative"},
+        "text": {"field": "city"}
+      }
+    }
+    
+  ]
+}

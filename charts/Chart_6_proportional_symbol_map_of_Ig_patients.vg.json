@@ -1,0 +1,44 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {"text":"Immunoglobulin patients by state, 2023-24 vs 2024-25",
+            "subtitle":"circle size = patients, colour = patients per 1,000"
+            },
+  "data": {"url": "../CSV files/nba5_csvs/immunoglobulin/ig_patients_by_state_2023_24_and_2024_25.csv"},
+  "transform": [
+    {"filter": "datum.state != 'National'"},
+    {"lookup": "state_name",
+     "from": {"data": {"url": "../geo/australia_states.geojson", "format": {"property": "features"}},
+              "key": "properties.STATE_NAME"},
+     "as": "geo"},
+    {"lookup": "state",
+     "from": {"data": {"url": "../geo/state_label_points.csv"}, "key": "state",
+              "fields": ["lon", "lat"]}}
+  ],
+  "facet": {"column": {"field": "year", "type": "ordinal", "title": null,
+                       "header": {"labelFontSize": 14, "labelFontWeight": "bold"}}},
+  "spec": {
+    "width": 380,
+    "height": 320,
+    "projection": {"type": "mercator"},
+    "layer": [
+      {
+        "mark": {"type": "geoshape", "fill": "#e8e8e8", "stroke": "white"},
+        "encoding": {"shape": {"field": "geo", "type": "geojson"}}
+      },
+      {
+        "mark": {"type": "circle", "opacity": 0.85, "stroke": "white"},
+        "encoding": {
+          "longitude": {"field": "lon", "type": "quantitative"},
+          "latitude": {"field": "lat", "type": "quantitative"},
+          "size": {"field": "patients", "type": "quantitative", "title": "Ig patients",
+                   "scale": {"range": [100, 3000]}},
+          "color": {"field": "patients_per_1000_printed", "type": "quantitative",
+                    "title": "Patients per 1,000", "scale": {"scheme": "blues"}},
+          "tooltip": [{"field": "state_name", "title": "State"}, {"field": "year"},
+                      {"field": "patients", "format": ","},
+                      {"field": "patients_per_1000_printed", "title": "Per 1,000"}]
+        }
+      }
+    ]
+  }
+}

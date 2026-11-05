@@ -1,0 +1,63 @@
+id,parent,name,deferral_type,category,n
+root,,All exclusion factors,,,
+Permanent,root,Permanent deferral,Permanent,,
+Temporary,root,Temporary deferral,Temporary,,
+Permanent|Cancer,Permanent,Cancer,Permanent,Cancer,
+Permanent|Chronic and organ conditions,Permanent,Chronic and organ conditions,Permanent,Chronic and organ conditions,
+Permanent|Infection and prion disease,Permanent,Infection and prion disease,Permanent,Infection and prion disease,
+Temporary|Body and recent health events,Temporary,Body and recent health events,Temporary,Body and recent health events,
+Temporary|Cancer,Temporary,Cancer,Temporary,Cancer,
+Temporary|Chronic and organ conditions,Temporary,Chronic and organ conditions,Temporary,Chronic and organ conditions,
+Temporary|Infection exposure and sexual health,Temporary,Infection exposure and sexual health,Temporary,Infection exposure and sexual health,
+Temporary|Medications,Temporary,Medications,Temporary,Medications,
+leaf0,Permanent|Chronic and organ conditions,Ever experienced a serious autoimmune disease,Permanent,Chronic and organ conditions,309.0
+leaf1,Permanent|Chronic and organ conditions,Ever had chronic lung disease,Permanent,Chronic and organ conditions,161.0
+leaf2,Permanent|Chronic and organ conditions,Ever experienced stroke,Permanent,Chronic and organ conditions,101.0
+leaf3,Permanent|Chronic and organ conditions,Ever experienced significant damage to heart,Permanent,Chronic and organ conditions,100.0
+leaf4,Permanent|Chronic and organ conditions,Significant kidney damage diagnosis,Permanent,Chronic and organ conditions,92.0
+leaf5,Permanent|Chronic and organ conditions,Ever experienced heart failure,Permanent,Chronic and organ conditions,93.0
+leaf6,Permanent|Chronic and organ conditions,Diabetes with secondary problems with eyes or kidneys,Permanent,Chronic and organ conditions,73.0
+leaf7,Permanent|Infection and prion disease,Ever tested positive to hepatitis B,Permanent,Infection and prion disease,61.0
+leaf8,Permanent|Chronic and organ conditions,Ever had thalassemia or haemophilia diagnosis,Permanent,Chronic and organ conditions,59.0
+leaf9,Permanent|Infection and prion disease,Ever tested positive to hepatitis C,Permanent,Infection and prion disease,49.0
+leaf10,Permanent|Infection and prion disease,Aware of prion disease in immediate family,Permanent,Infection and prion disease,42.0
+leaf11,Permanent|Cancer,"Blood cancer, last 5 years",Permanent,Cancer,27.0
+leaf12,Permanent|Infection and prion disease,Ever tested positive to HIV,Permanent,Infection and prion disease,6.0
+leaf13,Permanent|Infection and prion disease,Ever tested positive to HTLV,Permanent,Infection and prion disease,5.0
+leaf14,Temporary|Body and recent health events,Anaemia/iron deficiency in last 6 months,Temporary,Body and recent health events,437.0
+leaf15,Temporary|Body and recent health events,Recent surgery,Temporary,Body and recent health events,397.0
+leaf16,Temporary|Body and recent health events,Weigh <50kg,Temporary,Body and recent health events,170.0
+leaf17,Temporary|Body and recent health events,"Currently pregnant, or pregnant in last 9 months (female at birth respondents only)",Temporary,Body and recent health events,123.0
+leaf18,Temporary|Medications,"Immunosuppressive, last 12 months",Temporary,Medications,165.0
+leaf19,Temporary|Chronic and organ conditions,High blood pressure that is not well controlled,Temporary,Chronic and organ conditions,86.0
+leaf20,Temporary|Infection exposure and sexual health,"Sex in last 3 months with someone who has ever injected, or been injected with, drugs not prescribed by a doctor or dentist",Temporary,Infection exposure and sexual health,62.0
+leaf21,Temporary|Infection exposure and sexual health,Had male-to-male sex (men only),Temporary,Infection exposure and sexual health,81.0
+leaf22,Temporary|Infection exposure and sexual health,Tattoo in unlicensed venue or overseas in last 4 months,Temporary,Infection exposure and sexual health,62.0
+leaf23,Temporary|Chronic and organ conditions,Diabetes not well controlled,Temporary,Chronic and organ conditions,35.0
+leaf24,Temporary|Medications,"Finasteride, last 12 months",Temporary,Medications,38.0
+leaf25,Temporary|Medications,"Any clinical trial medication, last 12 months",Temporary,Medications,57.0
+leaf26,Temporary|Medications,"Denosumab, last 12 months",Temporary,Medications,50.0
+leaf27,Temporary|Infection exposure and sexual health,Injected drugs not prescribed by a doctor or dentist within last 5 years,Temporary,Infection exposure and sexual health,51.0
+leaf28,Temporary|Infection exposure and sexual health,Engaged in sexual activity with a sex worker in last 3 months (men only),Temporary,Infection exposure and sexual health,39.0
+leaf29,Temporary|Infection exposure and sexual health,"Sex in last 3 months with someone who has tested positive for hepatitis B, hepatitis C, HIV or HTLV",Temporary,Infection exposure and sexual health,38.0
+leaf30,Temporary|Medications,"Dutasteride, last 12 months",Temporary,Medications,31.0
+leaf31,Temporary|Cancer,"Other cancer, last 5 years",Temporary,Cancer,35.0
+leaf32,Temporary|Chronic and organ conditions,Seizure due to epilepsy in last 3 years,Temporary,Chronic and organ conditions,36.0
+leaf33,Temporary|Infection exposure and sexual health,Sex in last 3 months with a man who may have had oral or anal sex with another man (women only),Temporary,Infection exposure and sexual health,23.0
+leaf34,Temporary|Medications,"HIV PrEP, last 12 months",Temporary,Medications,34.0
+leaf35,Temporary|Medications,"Isotretinoin, last 12 months",Temporary,Medications,27.0
+leaf36,Temporary|Cancer,"Colon and/or rectal cancer, last 5 years",Temporary,Cancer,15.0
+leaf37,Temporary|Cancer,"Breast cancer, last 5 years",Temporary,Cancer,22.0
+leaf38,Temporary|Cancer,"Invasive melanoma, last 5 years",Temporary,Cancer,7.0
+leaf39,Temporary|Cancer,"Prostate cancer, last 5 years",Temporary,Cancer,10.0
+leaf40,Temporary|Cancer,"Lung cancer, last 5 years",Temporary,Cancer,8.0
+leaf41,Temporary|Infection exposure and sexual health,"Received payment for sex in money, gifts, or drugs in last 3 months (males only)",Temporary,Infection exposure and sexual health,5.0
+leaf42,Temporary|Infection exposure and sexual health,Sex in last 3 months with someone who could have HIV,Temporary,Infection exposure and sexual health,10.0
+leaf43,Temporary|Infection exposure and sexual health,Had sex with a man or transgender partner in last 3 months (non-binary or 'different term' only),Temporary,Infection exposure and sexual health,6.0
+leaf44,Temporary|Infection exposure and sexual health,Syphilis in last 12 months,Temporary,Infection exposure and sexual health,5.0
+leaf45,Temporary|Infection exposure and sexual health,Engaged in sexual activity with a sex worker in last 3 months (females only),Temporary,Infection exposure and sexual health,5.0
+leaf46,Temporary|Infection exposure and sexual health,Engaged in sexual activity with a sex worker in last 3 months (non-binary or 'different term' only),Temporary,Infection exposure and sexual health,1.0
+leaf47,Temporary|Infection exposure and sexual health,"New partner from/in: Cambodia, Myanmar or Thailand",Temporary,Infection exposure and sexual health,8.0
+leaf48,Temporary|Infection exposure and sexual health,New partner from/in: Africa,Temporary,Infection exposure and sexual health,7.0
+leaf49,Temporary|Infection exposure and sexual health,"New partner from/in: Bahamas, Barbados, Dominican Republic, Haiti, Belize or Panama",Temporary,Infection exposure and sexual health,1.0
+leaf50,Temporary|Infection exposure and sexual health,"New partner from/in: Latvia, Russia or Ukraine",Temporary,Infection exposure and sexual health,1.0

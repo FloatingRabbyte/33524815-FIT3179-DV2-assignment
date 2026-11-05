@@ -1,0 +1,24 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "Donor adverse event rates per 10,000 donations, by donation type, 2020-21 to 2023-24",
+  "data": {"url": "../CSV files/haemovigilance_csvs/hv_donor_event_rates_per_10000_by_donation_type.csv"},
+  "transform": [{"filter": "datum.rate_basis == 'Unadjusted'"}],
+  "width": 300,
+  "height": 240,
+  "mark": {"type": "line", "point": true, "strokeWidth": 2.5},
+  "encoding": {
+    "column": {"field": "measure", "type": "nominal", "title": null,
+               "header": {"labelFontSize": 13, "labelFontWeight": "bold"}},
+    "x": {"field": "year", "type": "ordinal", "title": "Year", "axis": {"labelAngle": 0}},
+    "y": {"field": "rate_per_10000_donations", "type": "quantitative",
+          "title": "Events per 10,000 donations"},
+    "color": {"field": "donation_type", "type": "nominal", "title": "Donation type",
+              "scale": {"domain": ["Whole blood", "Plasmapheresis", "Plateletpheresis", "Total"],
+                        "range": ["#b3202a", "#2f6f9f", "#e0a030", "#333333"]}},
+    "strokeDash": {"condition": {"test": "datum.donation_type == 'Total'", "value": [6, 4]},
+                   "value": [1, 0]},
+    "tooltip": [{"field": "donation_type", "title": "Donation type"}, {"field": "year"},
+                {"field": "rate_per_10000_donations", "title": "Rate per 10,000"}]
+  },
+  "resolve": {"scale": {"y": "independent"}}
+}

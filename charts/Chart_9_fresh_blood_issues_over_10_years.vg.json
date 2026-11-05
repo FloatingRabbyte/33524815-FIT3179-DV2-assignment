@@ -1,0 +1,28 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "Fresh blood product issues by year",
+  "data": {"url": "../CSV files/nba5_csvs/fresh_blood/fb_national_issues_and_per_1000_by_year.csv"},
+  "transform": [
+    {"fold": ["rbc_issues", "platelet_issues", "ffp_issues"], "as": ["product_col", "issues"]},
+    {"calculate": "datum.product_col == 'rbc_issues' ? 'Red blood cells' : datum.product_col == 'platelet_issues' ? 'Platelets' : 'Fresh frozen plasma'",
+     "as": "product"}
+  ],
+  "width": 260,
+  "height": 220,
+  "mark": {"type": "line", "point": true, "strokeWidth": 2.5},
+  "encoding": {
+    "column": {"field": "product", "type": "nominal", "title": null,
+               "sort": ["Red blood cells", "Platelets", "Fresh frozen plasma"],
+               "header": {"labelFontSize": 13, "labelFontWeight": "bold"}},
+    "x": {"field": "year", "type": "ordinal", "title": "Year",
+          "axis": {"labelAngle": -45}},
+    "y": {"field": "issues", "type": "quantitative", "title": "Units issued",
+          "scale": {"zero": true}},
+    "color": {"field": "product", "type": "nominal", "legend": null,
+              "scale": {"domain": ["Red blood cells", "Platelets", "Fresh frozen plasma"],
+                        "range": ["#b3202a", "#e0a030", "#2f6f9f"]}},
+    "tooltip": [{"field": "product"}, {"field": "year"},
+                {"field": "issues", "title": "Units issued", "format": ","}]
+  },
+  "resolve": {"scale": {"y": "independent"}}
+}

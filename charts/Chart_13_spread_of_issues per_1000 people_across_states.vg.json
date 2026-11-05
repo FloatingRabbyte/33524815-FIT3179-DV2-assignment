@@ -1,0 +1,18 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title":"Spread of fresh blood issues per 1,000 people across states and territories (selected year)",
+  "data": {"url": "../CSV files/nba5_csvs/fresh_blood/fb_issues_per_1000_population_by_state_year.csv"},
+  "params": [{"name": "year_pick", "value": "2024-25",
+  "bind": {"input": "select", "name": "Year: ", "options": ["2015-16","2016-17","2017-18","2018-19","2019-20","2020-21","2021-22","2022-23","2023-24", "2024-25"]}}],
+  "transform": [{"filter": "datum.year == year_pick" }],
+  "width": 160,
+  "height": 300,
+  "mark": {"type": "boxplot", "extent": 1.5},
+  "encoding": {
+    "column": {"field": "product", "type": "nominal", "title": null},
+    "y": {"field": "issues_per_1000_population", "type": "quantitative",
+          "title": "Issues per 1,000 people", "scale": {"zero": true}},
+    "color": {"field": "product", "type": "nominal", "legend": null}
+  },
+  "resolve": {"scale": {"y": "independent"}}
+}

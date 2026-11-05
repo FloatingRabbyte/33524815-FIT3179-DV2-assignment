@@ -1,0 +1,21 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "Share of immunoglobulin issued that is domestic vs imported, by state, 2024-25",
+  "data": {"url": "../CSV files/nba5_csvs/immunoglobulin/ig_domestic_vs_imported_public_private_by_state_2024_25.csv"},
+  "transform": [
+    {"filter": "datum.measure == 'grams_issued' && datum.sector == 'Total'"},
+    {"filter": "datum.origin == 'Domestic' || datum.origin == 'Imported'"},
+    {"filter": "datum.state != 'National'"}
+  ],
+  "mark": "bar",
+  "encoding": {
+    "x": {"field": "state", "type": "nominal", "title": "State"},
+    "y": {"field": "value", "type": "quantitative", "title": "Share of Ig issued", "stack":"normalize"},
+    "color": {"field": "origin", "type": "nominal", "title": "Source"},
+    "tooltip": [
+      {"field": "state_name", "title": "State"},
+      {"field": "origin"},
+      {"field": "value", "title": "Grams", "format": ","}
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title" : "Fresh blood issues per 1000 population by state and year",
+  "data": {"url": "../CSV files/nba5_csvs/fresh_blood/fb_issues_per_1000_population_by_state_year.csv"},
+  "params": [
+    {"name": "year_pick", "value": "2024-25",
+     "bind": {"input": "select", "name": "Year: ",
+              "options": ["2015-16","2016-17","2017-18","2018-19","2019-20",
+                          "2020-21","2021-22","2022-23","2023-24","2024-25"]}},
+    {"name": "product_pick", "value": "Red blood cells",
+     "bind": {"input": "select", "name": "Product: ",
+              "options": ["Red blood cells","Platelets","Fresh frozen plasma"]}}
+  ],
+  "transform": [
+    {"filter": "datum.year == year_pick && datum.product == product_pick"},
+    {"lookup": "state_name",
+     "from": {"data": {"url": "../geo/australia_states.geojson", "format": {"property": "features"}},
+              "key": "properties.STATE_NAME"},
+     "as": "geo"}
+  ],
+  "width": 500,
+  "height": 400,
+  "projection": {"type": "mercator"},
+  "mark": {"type": "geoshape", "stroke": "white"},
+  "encoding": {
+    "shape": {"field": "geo", "type": "geojson"},
+    "color": {"field": "issues_per_1000_population", "type": "quantitative",
+              "title": "Issues per 1,000", "scale": {"scheme": "reds"}},
+    "tooltip": [{"field": "state_name", "title": "State"},
+                {"field": "issues_per_1000_population", "title": "Per 1,000"}]
+  }
+}

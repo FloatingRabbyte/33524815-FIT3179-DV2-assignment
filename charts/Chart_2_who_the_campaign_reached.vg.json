@@ -1,0 +1,27 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "Who saw the campaign materials? African-born Australians (n = 454), by group",
+  "data": {"url": "../CSV files/survey_csvs/campaign_survey_sample_profile.csv"},
+  "transform": [
+    {"filter": "datum.group == 'Seen materials' || datum.group == 'Not seen materials'"},
+    {"calculate": "datum.group == 'Seen materials' ? datum.pct_of_group : -datum.pct_of_group",
+     "as": "signed_pct"}
+  ],
+  "width": 380,
+  "height": {"step": 22},
+  "mark": "bar",
+  "encoding": {
+    "row": {"field": "variable", "type": "nominal", "title": null,
+            "header": {"labelAngle": 0, "labelAlign": "left", "labelFontWeight": "bold"}},
+    "y": {"field": "category", "type": "nominal", "title": null},
+    "x": {"field": "signed_pct", "type": "quantitative", "title": "% of group",
+          "axis": {"labelExpr": "abs(datum.value)"}},
+    "color": {"field": "group", "type": "nominal", "title": null,
+              "scale": {"domain": ["Not seen materials", "Seen materials"],
+                        "range": ["#9aa5b1", "#b3202a"]}},
+    "tooltip": [{"field": "category"}, {"field": "group"},
+                {"field": "n", "title": "People"},
+                {"field": "pct_of_group", "title": "% of group"}]
+  },
+  "resolve": {"scale": {"y": "independent"}}
+}

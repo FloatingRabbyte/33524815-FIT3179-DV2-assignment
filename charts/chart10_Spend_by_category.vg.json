@@ -1,0 +1,55 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "Blood product spending by category and year",
+  "data": {"url": "../CSV files/nba5_csvs/nba_report/nba_purchases_by_category_year.csv"},
+  "params": [
+    {"name": "year_pick", "value": "2024-25",
+     "bind": {"input": "select", "name": "Year: ",
+              "options": ["2020-21","2021-22","2022-23","2023-24","2024-25"]}}],
+  "transform": [{"filter": "datum.year == year_pick"}],
+  "width": 400,
+  "height": 400,
+  "layer": [
+    {
+      "mark": {"type": "arc", "innerRadius": 100, "outerRadius": 160},
+      "encoding": {
+        "theta": {"field": "amount_aud_m", "type": "quantitative", "stack": true},
+        "order": {"field": "category"},
+        "color": {"field": "category", "type": "nominal", "title": "Category"},
+        "tooltip": [
+          {"field": "category"},
+          {"field": "amount_aud_m", "title": "A", "format": ",.1f"}
+        ]
+      }
+    },
+    {
+      "transform": [
+        {"joinaggregate": [{"op": "sum", "field": "amount_aud_m", "as": "total"}]},
+        {"calculate": "datum.amount_aud_m / datum.total", "as": "share"},
+        {"calculate": "datum.share > 0.03 ? format(datum.share, '.0%') : ''", "as": "label"}
+      ],
+      "mark": {"type": "text", "radius": 130, "fontSize": 13, "fontWeight": "bold", "color": "white"},
+      "encoding": {
+        "theta": {"field": "amount_aud_m", "type": "quantitative", "stack": true},
+        "order": {"field": "category"},
+        "text": {"field": "label", "type": "nominal"}
+      }
+    },
+    {
+      "transform": [
+        {"aggregate": [{"op": "sum", "field": "amount_aud_m", "as": "total"}]},
+        {"calculate": "'A' + format(datum.total, ',.0f') + 'm'", "as": "kpi"}
+      ],
+      "mark": {"type": "text", "fontSize": 28, "fontWeight": "bold"},
+      "encoding": {"text": {"field": "kpi", "type": "nominal"}}
+    },
+    {
+     "transform": [
+       {"aggregate": [{"op": "count", "as": "n"}]},
+       {"calculate": "'Total spending, ' + year_pick", "as": "caption"}
+     ],
+     "mark": {"type": "text", "fontSize": 12, "dy": 26, "color": "gray"},
+     "encoding": {"text": {"field": "caption", "type": "nominal"}}
+   }
+  ]
+}

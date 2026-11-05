@@ -1,0 +1,203 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "title": "Why donors are deferred: survey respondents by deferral type, category and factor",
+  "description": "Sunburst: deferral type -> category -> exclusion factor (survey observations)",
+  "width": 640,
+  "height": 640,
+  "padding": 5,
+  "autosize": "none",
+  "signals": [
+    {
+      "name": "cx",
+      "update": "width / 2"
+    },
+    {
+      "name": "cy",
+      "update": "height / 2"
+    }
+  ],
+  "data": [
+    {
+      "name": "tree",
+      "url": "../CSV files/exclusion_tree.csv",
+      "format": {
+        "type": "csv",
+        "parse": {
+          "n": "number"
+        }
+      },
+      "transform": [
+        {
+          "type": "stratify",
+          "key": "id",
+          "parentKey": "parent"
+        },
+        {
+          "type": "partition",
+          "field": "n",
+          "sort": {
+            "field": "category"
+          },
+          "size": [
+            {
+              "signal": "2 * PI"
+            },
+            {
+              "signal": "width / 2"
+            }
+          ],
+          "as": [
+            "a0",
+            "r0",
+            "a1",
+            "r1",
+            "depth",
+            "children"
+          ]
+        }
+      ]
+    }
+  ],
+  "scales": [
+    {
+      "name": "color",
+      "type": "ordinal",
+      "domain": [
+        "Permanent",
+        "Temporary"
+      ],
+      "range": [
+        "#b3202a",
+        "#2f6f9f"
+      ]
+    }
+  ],
+  "marks": [
+    {
+      "type": "arc",
+      "from": {
+        "data": "tree"
+      },
+      "encode": {
+        "enter": {
+          "x": {
+            "signal": "cx"
+          },
+          "y": {
+            "signal": "cy"
+          },
+          "stroke": {
+            "value": "white"
+          },
+          "strokeWidth": {
+            "value": 1
+          },
+          "tooltip": {
+            "signal": "datum.depth == 0 ? 'All exclusion factors' : datum.name + (datum.n ? ': ' + datum.n + ' respondents' : '')"
+          }
+        },
+        "update": {
+          "startAngle": {
+            "field": "a0"
+          },
+          "endAngle": {
+            "field": "a1"
+          },
+          "innerRadius": {
+            "field": "r0"
+          },
+          "outerRadius": {
+            "field": "r1"
+          },
+          "fill": {
+            "signal": "datum.depth == 0 ? '#ffffff' : scale('color', datum.deferral_type)"
+          },
+          "fillOpacity": {
+            "signal": "datum.depth == 1 ? 1 : datum.depth == 2 ? 0.7 : 0.45"
+          }
+        },
+        "hover": {
+          "fillOpacity": {
+            "value": 1
+          }
+        }
+      }
+    },
+    {
+      "type": "text",
+      "from": {
+        "data": "tree"
+      },
+      "encode": {
+        "enter": {
+          "x": {
+            "signal": "cx"
+          },
+          "y": {
+            "signal": "cy"
+          },
+          "baseline": {
+            "value": "middle"
+          },
+          "align": {
+            "value": "center"
+          }
+        },
+        "update": {
+          "radius": {
+            "signal": "(datum.r0 + datum.r1) / 2"
+          },
+          "theta": {
+            "signal": "(datum.a0 + datum.a1) / 2"
+          },
+          "angle": {
+            "signal": "((datum.a0 + datum.a1) / 2) * 180 / PI - (((datum.a0 + datum.a1) / 2) * 180 / PI > 180 ? 270 : 90)"
+          },
+          "text": {
+            "signal": "datum.depth > 0 && datum.depth < 3 && (datum.a1 - datum.a0) > 0.28 ? datum.name : ''"
+          },
+          "fontSize": {
+            "value": 11
+          },
+          "fill": {
+            "value": "#111"
+          }
+        }
+      }
+    },
+    {
+      "type": "text",
+      "encode": {
+        "update": {
+          "x": {
+            "signal": "cx"
+          },
+          "y": {
+            "signal": "cy"
+          },
+          "align": {
+            "value": "center"
+          },
+          "baseline": {
+            "value": "middle"
+          },
+          "text": {
+            "value": [
+              "Exclusion",
+              "factors"
+            ]
+          },
+          "fontSize": {
+            "value": 14
+          },
+          "fontWeight": {
+            "value": "bold"
+          },
+          "fill": {
+            "value": "#111"
+          }
+        }
+      }
+    }
+  ]
+}

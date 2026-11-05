@@ -1,0 +1,426 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "title": "Immunoglobulin dispensed in 2024-25: from medical condition to product (grams)",
+  "description": "Sankey: medical condition -> Ig product, grams dispensed 2024-25",
+  "width": 1040,
+  "height": 460,
+  "padding": 10,
+  "autosize": "none",
+  "signals": [
+    {
+      "name": "nodeW",
+      "value": 14
+    },
+    {
+      "name": "xL",
+      "value": 420
+    },
+    {
+      "name": "xR",
+      "value": 680
+    }
+  ],
+  "data": [
+    {
+      "name": "raw",
+      "url": "../CSV files/nba5_csvs/immunoglobulin/ig_grams_by_condition_and_product_2024_25.csv",
+      "format": {
+        "type": "csv",
+        "parse": {
+          "grams_dispensed": "number"
+        }
+      },
+      "transform": [
+        {
+          "type": "filter",
+          "expr": "datum.grams_dispensed > 0"
+        }
+      ]
+    },
+    {
+      "name": "leftNodes",
+      "source": "raw",
+      "transform": [
+        {
+          "type": "aggregate",
+          "groupby": [
+            "medical_condition"
+          ],
+          "fields": [
+            "grams_dispensed"
+          ],
+          "ops": [
+            "sum"
+          ],
+          "as": [
+            "total"
+          ]
+        },
+        {
+          "type": "joinaggregate",
+          "fields": [
+            "total"
+          ],
+          "ops": [
+            "sum"
+          ],
+          "as": [
+            "grand"
+          ]
+        },
+        {
+          "type": "stack",
+          "field": "total",
+          "sort": {
+            "field": "total",
+            "order": "descending"
+          },
+          "as": [
+            "y0",
+            "y1"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "rightNodes",
+      "source": "raw",
+      "transform": [
+        {
+          "type": "aggregate",
+          "groupby": [
+            "product",
+            "route"
+          ],
+          "fields": [
+            "grams_dispensed"
+          ],
+          "ops": [
+            "sum"
+          ],
+          "as": [
+            "total"
+          ]
+        },
+        {
+          "type": "joinaggregate",
+          "fields": [
+            "total"
+          ],
+          "ops": [
+            "sum"
+          ],
+          "as": [
+            "grand"
+          ]
+        },
+        {
+          "type": "stack",
+          "field": "total",
+          "sort": {
+            "field": "total",
+            "order": "descending"
+          },
+          "as": [
+            "y0",
+            "y1"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "links",
+      "source": "raw",
+      "transform": [
+        {
+          "type": "lookup",
+          "from": "leftNodes",
+          "key": "medical_condition",
+          "fields": [
+            "medical_condition"
+          ],
+          "values": [
+            "y0"
+          ],
+          "as": [
+            "lnode"
+          ]
+        },
+        {
+          "type": "lookup",
+          "from": "rightNodes",
+          "key": "product",
+          "fields": [
+            "product"
+          ],
+          "values": [
+            "y0"
+          ],
+          "as": [
+            "rnode"
+          ]
+        },
+        {
+          "type": "stack",
+          "groupby": [
+            "medical_condition"
+          ],
+          "field": "grams_dispensed",
+          "sort": {
+            "field": "rnode"
+          },
+          "as": [
+            "ly0",
+            "ly1"
+          ]
+        },
+        {
+          "type": "stack",
+          "groupby": [
+            "product"
+          ],
+          "field": "grams_dispensed",
+          "sort": {
+            "field": "lnode"
+          },
+          "as": [
+            "ry0",
+            "ry1"
+          ]
+        },
+        {
+          "type": "formula",
+          "as": "sx",
+          "expr": "xL + nodeW"
+        },
+        {
+          "type": "formula",
+          "as": "tx",
+          "expr": "xR"
+        },
+        {
+          "type": "formula",
+          "as": "sy",
+          "expr": "scale('ys', datum.lnode + (datum.ly0 + datum.ly1) / 2)"
+        },
+        {
+          "type": "formula",
+          "as": "ty",
+          "expr": "scale('ys', datum.rnode + (datum.ry0 + datum.ry1) / 2)"
+        },
+        {
+          "type": "formula",
+          "as": "lw",
+          "expr": "scale('ys', datum.grams_dispensed) - scale('ys', 0)"
+        },
+        {
+          "type": "linkpath",
+          "orient": "horizontal",
+          "shape": "diagonal",
+          "sourceX": "sx",
+          "sourceY": "sy",
+          "targetX": "tx",
+          "targetY": "ty"
+        }
+      ]
+    }
+  ],
+  "scales": [
+    {
+      "name": "ys",
+      "type": "linear",
+      "zero": true,
+      "domain": {
+        "data": "leftNodes",
+        "field": "y1"
+      },
+      "range": [
+        0,
+        {
+          "signal": "height"
+        }
+      ]
+    },
+    {
+      "name": "color",
+      "type": "ordinal",
+      "domain": {
+        "data": "leftNodes",
+        "field": "medical_condition",
+        "sort": {
+          "field": "total",
+          "order": "descending"
+        }
+      },
+      "range": [
+        "#b3202a",
+        "#2f6f9f",
+        "#e0a030",
+        "#5a9e6f",
+        "#8a6bb0"
+      ]
+    }
+  ],
+  "marks": [
+    {
+      "type": "path",
+      "from": {
+        "data": "links"
+      },
+      "encode": {
+        "enter": {
+          "tooltip": {
+            "signal": "datum.medical_condition + ' \u2192 ' + datum.product + ' (' + datum.route + '): ' + format(datum.grams_dispensed, ',') + ' g'"
+          }
+        },
+        "update": {
+          "path": {
+            "field": "path"
+          },
+          "stroke": {
+            "scale": "color",
+            "field": "medical_condition"
+          },
+          "strokeWidth": {
+            "field": "lw"
+          },
+          "strokeOpacity": {
+            "value": 0.45
+          }
+        },
+        "hover": {
+          "strokeOpacity": {
+            "value": 0.8
+          }
+        }
+      }
+    },
+    {
+      "type": "rect",
+      "from": {
+        "data": "leftNodes"
+      },
+      "encode": {
+        "update": {
+          "x": {
+            "signal": "xL"
+          },
+          "width": {
+            "signal": "nodeW"
+          },
+          "y": {
+            "scale": "ys",
+            "field": "y0"
+          },
+          "y2": {
+            "scale": "ys",
+            "field": "y1"
+          },
+          "fill": {
+            "scale": "color",
+            "field": "medical_condition"
+          },
+          "stroke": {
+            "value": "white"
+          }
+        },
+        "enter": {
+          "tooltip": {
+            "signal": "datum.medical_condition + ': ' + format(datum.total, ',') + ' g'"
+          }
+        }
+      }
+    },
+    {
+      "type": "rect",
+      "from": {
+        "data": "rightNodes"
+      },
+      "encode": {
+        "update": {
+          "x": {
+            "signal": "xR"
+          },
+          "width": {
+            "signal": "nodeW"
+          },
+          "y": {
+            "scale": "ys",
+            "field": "y0"
+          },
+          "y2": {
+            "scale": "ys",
+            "field": "y1"
+          },
+          "fill": {
+            "value": "#444"
+          },
+          "stroke": {
+            "value": "white"
+          }
+        },
+        "enter": {
+          "tooltip": {
+            "signal": "datum.product + ' (' + datum.route + '): ' + format(datum.total, ',') + ' g'"
+          }
+        }
+      }
+    },
+    {
+      "type": "text",
+      "from": {
+        "data": "leftNodes"
+      },
+      "encode": {
+        "update": {
+          "x": {
+            "signal": "xL - 8"
+          },
+          "align": {
+            "value": "right"
+          },
+          "baseline": {
+            "value": "middle"
+          },
+          "y": {
+            "signal": "scale('ys', (datum.y0 + datum.y1) / 2)"
+          },
+          "text": {
+            "signal": "(datum.medical_condition == 'Chronic inflammatory demyelinating polyneuropathy' ? 'CIDP' : datum.medical_condition) + ' (' + format(datum.total / datum.grand, '.0%') + ')'"
+          },
+          "limit": {
+            "value": 400
+          },
+          "fontSize": {
+            "value": 12
+          }
+        }
+      }
+    },
+    {
+      "type": "text",
+      "from": {
+        "data": "rightNodes"
+      },
+      "encode": {
+        "update": {
+          "x": {
+            "signal": "xR + nodeW + 8"
+          },
+          "baseline": {
+            "value": "middle"
+          },
+          "y": {
+            "signal": "scale('ys', (datum.y0 + datum.y1) / 2)"
+          },
+          "text": {
+            "signal": "datum.total / datum.grand > 0.035 ? datum.product + ' \u00b7 ' + datum.route + ' (' + format(datum.total / datum.grand, '.0%') + ')' : ''"
+          },
+          "fontSize": {
+            "value": 12
+          }
+        }
+      }
+    }
+  ]
+}
