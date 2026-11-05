@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": "Fresh blood product issues by year",
-  "data": {"url": "CSV files/nba5_csvs/fresh_blood/fb_national_issues_and_per_1000_by_year.csv"},
+  "data": {"url": "data/nba5_csvs/fresh_blood/fb_national_issues_and_per_1000_by_year.csv"},
   "transform": [
     {"fold": ["rbc_issues", "platelet_issues", "ffp_issues"], "as": ["product_col", "issues"]},
     {"calculate": "datum.product_col == 'rbc_issues' ? 'Red blood cells' : datum.product_col == 'platelet_issues' ? 'Platelets' : 'Fresh frozen plasma'",

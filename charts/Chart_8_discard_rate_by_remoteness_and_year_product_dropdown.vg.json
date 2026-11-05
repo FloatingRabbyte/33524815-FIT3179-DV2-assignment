@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "data": {"url": "CSV files/nba5_csvs/fresh_blood/fb_issues_by_remoteness_year.csv"},
+  "data": {"url": "data/nba5_csvs/fresh_blood/fb_issues_by_remoteness_year.csv"},
   "title": "Share of issued blood products discarded, by remoteness and yea",
   "params": [{
     "name": "product_pick",
