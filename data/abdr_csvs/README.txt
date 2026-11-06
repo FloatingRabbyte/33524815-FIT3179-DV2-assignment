@@ -3,6 +3,8 @@ Source: Australian Bleeding Disorders Registry Annual Report 2024-2025 (tables a
 Cite the original report, and the NBA/ABDR as publisher. Check the report's own licence line before publishing.
 
 FILES
+abdr_fig4_treatment_centres.csv              19 haemophilia treatment centre hospitals by city. City lat/lon are approximate and added by Claude
+
 abdr_t3_patients_by_diagnosis_year.csv       Registry patients and patients who received product, by diagnosis, 2020-21 to 2024-25 (Table 3; "Total" row left out so it can't double count)
 abdr_key_figures_2024_25.csv                 Patients and product volume panels (the two summary panels above Table 3)
 abdr_t4_international_incidence.csv          Australia vs 9 countries, prevalence per 100,000 (Table 4). Lat/lon columns are approximate country centres I added, NOT from the report
@@ -12,7 +14,6 @@ abdr_t6_8_state_profiles_2024_25.csv         Haemophilia A, B and VWD by state: 
 abdr_t9_product_by_regimen_2024_25.csv       Patients, units and IU/kg by product and regimen (Table 9)
 abdr_t10_acquired_other_patients_by_state_2024_25.csv Acquired and other bleeding disorders by state (Table 10)
 abdr_t11_acquired_other_products_by_state_2024_25.csv Products used for those disorders by state (Table 11)
-abdr_fig4_treatment_centres.csv              19 haemophilia treatment centre hospitals by city. City lat/lon are approximate and added by me
 abdr_fig5_national_issues_by_category_2024_25.csv     Share of national issues by product category (Figure 5)
 abdr_fig6_clotting_factor_spend_by_year.csv  Clotting factor spend ($m), % of blood budget and patients treated, 2009-10 to 2024-25 (Figure 6)
 
