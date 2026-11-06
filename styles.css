@@ -51,14 +51,6 @@ h2{
     gap: 15px;
 }
 
-#demand_and_supply_row{
-    display: flex;
-    flex-direction: row;  /* Stacks the divs vertically */
-    justify-content: center; /* Centers vertically (swaps roles due to column) */
-    align-items: center;     /* Centers horizontally */
-    gap: 15px;
-}
-
 #demographic_row{
     display: flex;
     flex-direction: row;  /* Stacks the divs vertically */
@@ -67,9 +59,41 @@ h2{
     gap: 15px;
 }
 
+#demographic_column{
+    display: flex;
+    flex-direction: column;  /* Stacks the divs vertically */
+    justify-content: center; /* Centers vertically (swaps roles due to column) */
+    align-items: center;     /* Centers horizontally */
+    gap: 15px;
+}
+
+#demand_and_supply_row{
+    display: flex;
+    flex-direction: row;  /* Stacks the divs vertically */
+    justify-content: center; /* Centers vertically (swaps roles due to column) */
+    align-items: center;     /* Centers horizontally */
+    gap: 15px;
+}
+
+#demand_and_supply_column{
+    display: flex;
+    flex-direction: column;  /* Stacks the divs vertically */
+    justify-content: center; /* Centers vertically (swaps roles due to column) */
+    align-items: center;     /* Centers horizontally */
+    gap: 15px;
+}
+
 #logistics_row{
     display: flex;
     flex-direction: row;  /* Stacks the divs vertically */
+    justify-content: center; /* Centers vertically (swaps roles due to column) */
+    align-items: center;     /* Centers horizontally */
+    gap: 15px;
+}
+
+#logistics_column{
+    display: flex;
+    flex-direction: column;  /* Stacks the divs vertically */
     justify-content: center; /* Centers vertically (swaps roles due to column) */
     align-items: center;     /* Centers horizontally */
     gap: 15px;
