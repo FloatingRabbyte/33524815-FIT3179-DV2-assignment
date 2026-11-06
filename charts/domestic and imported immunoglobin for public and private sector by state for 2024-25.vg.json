@@ -1,9 +1,18 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title":"Domestic vs imported immunoglobulin supply, Australia, 2024-25",
-  "data": {"url": "data/nba5_csvs/immunoglobulin/ig_domestic_vs_imported_public_private_by_state_2024_25.csv"},
+  "data": {"url": "../data/nba5_csvs/immunoglobulin/ig_domestic_vs_imported_public_private_by_state_2024_25.csv"},
+  "params": [
+    {"name": "state_pick", "value": "New South Wales",
+     "bind": {"input": "select", "name": "State: ",
+              "options": ["New South Wales","Victoria","Queensland","South Australia","Western Australia","Tasmania","Northern Territory","Australian Capital Territory", "Australia"]}},
+      {"name": "sector_pick", "value": "Total",
+     "bind": {"input": "select", "name": "Sector: ",
+              "options": ["Public","Private","Total"]}}
+
+            ],
   "transform": [
-    {"filter": "datum.measure == 'grams_issued' && datum.sector == 'Total' && datum.state == 'National' && (datum.origin == 'Domestic' || datum.origin == 'Imported')"}
+    {"filter": "datum.measure == 'grams_issued' && datum.sector == sector_pick && datum.state_name == state_pick && (datum.origin == 'Domestic' || datum.origin == 'Imported')"}
   ],
   "width": 400,
   "height": 400,

@@ -2,7 +2,7 @@
   "$schema": "https://vega.github.io/schema/vega/v5.json",
   "title": "Immunoglobulin dispensed in 2024-25: from medical condition to product (grams)",
   "description": "Sankey: medical condition -> Ig product, grams dispensed 2024-25",
-  "width": 1040,
+  "width": 840,
   "height": 460,
   "padding": 10,
   "autosize": "none",
