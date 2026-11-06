@@ -3,6 +3,8 @@
   "title": "Donors by age group",
   "data": {"url": "data/survey_csvs/donors_by_age_and_sex.csv"},
   "transform": [{"filter": "datum.dimension == 'age_group'"}],
+  "width": 380,
+  "height": {"step": 22},
   "mark": "bar",
   "encoding": {
     "x": {"field": "group", "type": "ordinal", "sort": null, "title": "Age group"},

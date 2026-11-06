@@ -1,15 +1,76 @@
 h1{
     text-align: center;
     font-family: 'Merriweather';
-
-    
+    font-size: 50px
 }
 
 body{
-    background-color: lightcoral;
+    background-color: rgb(255, 185, 185);
 }
 
 p{
     font-family: 'PT Sans';
     text-align: center;
+}
+
+h2{
+    text-align: center;
+    font-family: 'Merriweather';
+    font-size: 40px
+}
+
+#Blood_Donation_Demographic{
+    display: flex;
+    flex-direction: column;  /* Stacks the divs vertically */
+    justify-content: center; /* Centers vertically (swaps roles due to column) */
+    align-items: center;     /* Centers horizontally */
+    gap: 15px;
+    
+}
+
+#Demand_and_supply{
+    display: flex;
+    flex-direction: column;  /* Stacks the divs vertically */
+    justify-content: center; /* Centers vertically (swaps roles due to column) */
+    align-items: center;     /* Centers horizontally */
+    gap: 15px;
+}
+
+#Logistics{
+    display: flex;
+    flex-direction: column;  /* Stacks the divs vertically */
+    justify-content: center; /* Centers vertically (swaps roles due to column) */
+    align-items: center;     /* Centers horizontally */
+    gap: 15px;
+}
+#Conclusion{
+    display: flex;
+    flex-direction: column;  /* Stacks the divs vertically */
+    justify-content: center; /* Centers vertically (swaps roles due to column) */
+    align-items: center;     /* Centers horizontally */
+    gap: 15px;
+}
+
+#demand_and_supply_row{
+    display: flex;
+    flex-direction: row;  /* Stacks the divs vertically */
+    justify-content: center; /* Centers vertically (swaps roles due to column) */
+    align-items: center;     /* Centers horizontally */
+    gap: 15px;
+}
+
+#demographic_row{
+    display: flex;
+    flex-direction: row;  /* Stacks the divs vertically */
+    justify-content: center; /* Centers vertically (swaps roles due to column) */
+    align-items: center;     /* Centers horizontally */
+    gap: 15px;
+}
+
+#logistics_row{
+    display: flex;
+    flex-direction: row;  /* Stacks the divs vertically */
+    justify-content: center; /* Centers vertically (swaps roles due to column) */
+    align-items: center;     /* Centers horizontally */
+    gap: 15px;
 }

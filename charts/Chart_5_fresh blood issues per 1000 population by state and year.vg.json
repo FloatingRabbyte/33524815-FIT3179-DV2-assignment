@@ -14,7 +14,7 @@
   "transform": [
     {"filter": "datum.year == year_pick && datum.product == product_pick"},
     {"lookup": "state_name",
-     "from": {"data": {"url": "33524815-FIT3179-DV2-assignment/geo/australia_states.geojson", "format": {"property": "features"}},
+     "from": {"data": {"url": "geo/australia_states.geojson", "format": {"property": "features"}},
               "key": "properties.STATE_NAME"},
      "as": "geo"}
   ],
